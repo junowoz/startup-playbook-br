@@ -50,12 +50,15 @@
 			<h1>Manual do Empreendedor</h1>
 			<h2>
 				Escrito por Sam Altman &middot; Ilustrado por Gregory Koberger &middot; <a
-					href="https://playbook.samaltman.com/">Original</a
+					href="https://playbook.samaltman.com/"
+					target="_blank">Original</a
 				>
-				&middot; <a href="https://platzi.com/startup-playbook/">Tradução para o espanhol</a>
+				&middot;
+				<a href="https://platzi.com/startup-playbook/" target="_blank">Tradução para o espanhol</a>
 				<br />
 				<br />
-				Traduzido ao português por <a href="https://junowoz.com">Juan José Gouvêa</a>
+				Traduzido ao português por
+				<a href="https://junowoz.com" target="_blank">Juan José Gouvêa</a>
 			</h2>
 		</div>
 
@@ -208,7 +211,9 @@
 					<div class="blocker2" />
 				</div>
 				<div class="machine" />
-				<h3 class="right em2"><span>Parte III</span><strong class="em2 ml-4">UM PRODUTO EXCELENTE</strong></h3>
+				<h3 class="right em2">
+					<span>Parte III</span><strong class="em2 ml-4">UM PRODUTO EXCELENTE</strong>
+				</h3>
 			</div>
 		</div>
 	</div>
@@ -234,7 +239,9 @@
 				<div class="dot" />
 				<div class="dot2" />
 				<div class="dot3" />
-				<h3 class="right"><span>Parte IV</span><strong class="em25">UMA Execução Excelente</strong></h3>
+				<h3 class="right">
+					<span>Parte IV</span><strong class="em25">UMA Execução Excelente</strong>
+				</h3>
 			</div>
 		</div>
 	</div>
@@ -415,7 +422,7 @@
 				<div class="graph">
 					<div class="arrow" />
 				</div>
-				<h3><span>Parte IV: Execução</span><strong  class="em2">Captação de Recursos</strong></h3>
+				<h3><span>Parte IV: Execução</span><strong class="em2">Captação de Recursos</strong></h3>
 			</div>
 		</div>
 	</div>
@@ -463,26 +470,28 @@
 	<br />
 	<div class="text-center">
 		<a
-			href="https://twitter.com/intent/tweet?source=webclient&amp;text=Startup+Playbook+by+Sam+Altman+(@sama)+translated+to+Portuguese+by+@junowoz+http://playbook.junowoz.com"
+			href="https://twitter.com/intent/tweet?source=webclient&amp;text=Startup+Playbook+by+Sam+Altman+(@sama)+traduzido+para+o+Português+por+@junowoz+http://playbook.junowoz.com"
 			class="social-link social-twitter"
+			target="_blank"
 		>
 			<div class="sm-icon" />
 			<span><i>Compartilhar no </i> <strong>Twitter</strong></span></a
 		>
-		<a
+		<!-- <a
 			href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://playbook.junowoz.com&amp;p[images][0]=http://playbook.junowoz.com/img/facebook.png&amp;p[title]=Startup%20Playbook%20by%20Sam%20Altman"
 			class="social-link social-fb"
+			target="_blank"
 		>
 			<div class="sm-icon" />
 			<span><i>Compartilhar no </i> <strong>Facebook</strong></span></a
-		>
+		> -->
 	</div>
 	<br />
 	<br />
 	<br />
 	<a href="#toc" class="bottom-toc text-center">
 		<div class="fa fa-arrow-up" />
-		Voltar ao<strong>Índice</strong></a
+		Voltar ao<strong> Índice</strong></a
 	>
 	<script src="lib/jquery/dist/jquery.min.js"></script>
 	<script src="lib/bootstrap/dist/js/bootstrap.js"></script>
