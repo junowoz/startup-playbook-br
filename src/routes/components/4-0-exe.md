@@ -1,0 +1,5 @@
+Embora seja necessário construir um ótimo produto, você não está pronto depois disso. Ainda é necessário transformá-lo em uma ótima empresa, e você mesmo precisa fazer isso - a fantasia de contratar um "gerente experiente" para fazer todo esse trabalho é extremamente comum e um cemitério para empresas fracassadas. Você não pode terceirizar o trabalho para outra pessoa por um longo tempo.
+
+Isso parece óbvio, mas você precisa ganhar dinheiro. Este seria um bom momento para começar a pensar em como isso vai funcionar.
+
+A única descrição universal do trabalho de um CEO é garantir que a empresa vença. Você pode fazer isso como fundador, mesmo que tenha muitas falhas que normalmente o desqualificariam como CEO, desde que contrate pessoas que complementem suas próprias habilidades e permita que elas façam seus trabalhos. Aquele CEO experiente com um MBA sofisticado pode não ter as lacunas de habilidades que você tem, mas ele ou ela não entenderá os usuários tão bem, não terá os mesmos instintos de produto e não se importará tanto.
