@@ -22,32 +22,10 @@
 	import Capitulo5_Fim from './components/5-fim.md';
 </script>
 
-<head>
-	<meta charset="utf-8" />
-	<title>Manual do Empreendedor</title>
-	<link href="../img/facebook.png" rel="image_src" />
-	<meta
-		name="description"
-		content="Para ter uma startup de sucesso, você precisa: uma excelente idea, um excelente mercado, um excelente time, um excelente produto, e uma excelente execução."
-	/>
-	<meta property="og:title" content="Startup Playbook" />
-	<meta property="og:site_name" content="Sam Altman" />
-	<meta property="og:image" content="/img/facebook.png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link
-		href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One"
-		rel="stylesheet"
-		type="text/css"
-	/>
-	<link rel="icon" type="image/png" href="/favicon.ico" />
-	<!--if lt IE 7script(src="http://html5shiv.googlecode.com/svn/trunk/html5.js")
--->
-</head>
-
 <body id="home">
 	<div class="container-content">
 		<div class="text-center">
-			<h1>Manual do Empreendedor</h1>
+			<h1>Manual do Empreendedor (Startup Playbook)</h1>
 			<h2>
 				Escrito por Sam Altman &middot; Ilustrado por Gregory Koberger &middot; <a
 					href="https://playbook.samaltman.com/"
