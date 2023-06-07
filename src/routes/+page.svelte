@@ -1,12 +1,8 @@
 <script>
-	import '../css/all.min.css';
-	import '../css/mobile.css';
-
-	import '../js/all.min.js';
-	import '../lib/bootstrap/dist/js/bootstrap.js';
-	import "../lib/jquery/dist/jquery.min.js"
 	import '../lib/bootstrap/dist/css/bootstrap.min.css';
 	import '../lib/fontawesome/css/font-awesome.min.css';
+	import '../css/all.min.css';
+	import '../css/mobile.css';
 
 	import Intro_1 from './components/0-1-intro.md';
 	import Intro_2 from './components/0-2-intro.md';
@@ -24,23 +20,6 @@
 	import Capitulo4_7_Capital from './components/4-7-capital.md';
 
 	import Capitulo5_Fim from './components/5-fim.md';
-
-	(function (i, s, o, g, r, a, m) {
-		i['GoogleAnalyticsObject'] = r;
-		(i[r] =
-			i[r] ||
-			function () {
-				(i[r].q = i[r].q || []).push(arguments);
-			}),
-			(i[r].l = 1 * new Date());
-		(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-		a.async = 1;
-		a.src = g;
-		m.parentNode.insertBefore(a, m);
-	})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-	ga('create', 'UA-69561835-1', 'auto');
-	ga('send', 'pageview');
 </script>
 
 <body id="home">
@@ -551,6 +530,27 @@
 		<div class="fa fa-arrow-up" />
 		Voltar ao<strong> Índice</strong></a
 	>
+	<!-- <script src="lib/jquery/dist/jquery.min.js"></script>
+	<script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="js/all.min.js"></script>
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			(i[r] =
+				i[r] ||
+				function () {
+					(i[r].q = i[r].q || []).push(arguments);
+				}),
+				(i[r].l = 1 * new Date());
+			(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m);
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-69561835-1', 'auto');
+		ga('send', 'pageview');
+	</script> -->
 </body>
 
 <style>
