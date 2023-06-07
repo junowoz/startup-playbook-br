@@ -49,25 +49,25 @@
 			<li>
 				<a href="#ideia" class="idea">
 					<div class="icon" />
-					<span>PARTE I:</span> A Ideia</a
+					<span>Parte I:</span> A Ideia</a
 				>
 			</li>
 			<li>
 				<a href="#time" class="team">
 					<div class="icon" />
-					<span>PARTE II:</span> Um Time Excelente</a
+					<span>Parte II:</span> Um Time Excelente</a
 				>
 			</li>
 			<li>
 				<a href="#produto" class="product">
 					<div class="icon" />
-					<span>PARTE III:</span> Um Produto Excelente</a
+					<span>Parte III:</span> Um Produto Excelente</a
 				>
 			</li>
 			<li>
 				<a href="#execução" class="execution">
 					<div class="icon" />
-					<span>PARTE IV:</span> Uma Execução Excelente</a
+					<span>Parte IV:</span> Uma Execução Excelente</a
 				>
 			</li>
 			<li>
