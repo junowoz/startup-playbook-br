@@ -76,7 +76,6 @@
   width: 23px;
   height: 26px;
   background-image: url("../img/ceo/ball.png");
-  -webkit-border-radius: 10px;
   border-radius: 10px;
   position: absolute;
   top: 0;
@@ -1127,7 +1126,6 @@
   width: 7px;
   height: 7px;
   background-color: #fff;
-  -webkit-border-radius: 10px;
   border-radius: 10px;
   border: 2px solid #000;
   position: absolute;
@@ -2285,7 +2283,6 @@
   -o-transform: scaleY(0.4);
   -ms-transform: scaleY(0.4);
   transform: scaleY(0.4);
-  -webkit-border-radius: 20px;
   border-radius: 20px;
   background-color: #71854c;
   opacity: 0;
@@ -3092,6 +3089,9 @@ body {
     width: 100%;
     padding: 0 30px;
   }
+}
+#voxsnap-player {
+  margin-bottom: 30px;
 }
 p {
   color: #656464;
