@@ -47,31 +47,31 @@
 	<div id="toc">
 		<ul class="toc">
 			<li>
-				<a href="#idea" class="idea">
+				<a href="#ideia" class="idea">
 					<div class="icon" />
-					<span>Parte I:</span> A Ideia</a
+					<span>PARTE I:</span> A Ideia</a
 				>
 			</li>
 			<li>
-				<a href="#team" class="team">
+				<a href="#time" class="team">
 					<div class="icon" />
-					<span>Parte II:</span> Um Time Excelente</a
+					<span>PARTE II:</span> Um Time Excelente</a
 				>
 			</li>
 			<li>
-				<a href="#product" class="product">
+				<a href="#produto" class="product">
 					<div class="icon" />
-					<span>Parte III:</span> Um Produto Excelente</a
+					<span>PARTE III:</span> Um Produto Excelente</a
 				>
 			</li>
 			<li>
-				<a href="#execution" class="execution">
+				<a href="#execução" class="execution">
 					<div class="icon" />
-					<span>Parte IV:</span> Uma Execução Excelente</a
+					<span>PARTE IV:</span> Uma Execução Excelente</a
 				>
 			</li>
 			<li>
-				<a href="#closing" class="closing">
+				<a href="#fim" class="closing">
 					<div class="icon" />
 					Pensamentos Finais</a
 				>
@@ -80,13 +80,13 @@
 		<div class="toc-arrow">
 			<ul class="toc sub">
 				<li>
-					<a href="#growth" class="growth">
+					<a href="#crescimento" class="growth">
 						<div class="icon" />
 						Crescimento</a
 					>
 				</li>
 				<li>
-					<a href="#focus" class="focus">
+					<a href="#foco" class="focus">
 						<div class="icon" />
 						Foco e Intensidade</a
 					>
@@ -98,25 +98,25 @@
 					>
 				</li>
 				<li>
-					<a href="#hiring" class="hiring">
+					<a href="#contratação" class="hiring">
 						<div class="icon" />
 						Contratação e Gerenciamento</a
 					>
 				</li>
 				<li>
-					<a href="#competition" class="competition">
+					<a href="#concorrentes" class="competition">
 						<div class="icon" />
 						Concorrentes</a
 					>
 				</li>
 				<li>
-					<a href="#money" class="money">
+					<a href="#receita" class="money">
 						<div class="icon" />
 						Gerando Receita</a
 					>
 				</li>
 				<li>
-					<a href="#fundraising" class="fundraising">
+					<a href="#capital" class="fundraising">
 						<div class="icon" />
 						Captação de Recursos</a
 					>
@@ -129,11 +129,11 @@
 		<Intro_2 />
 		<!-- END INTRO 2 -->
 	</div>
-	<div id="idea" class="anchor" />
+	<div id="ideia" class="anchor" />
 	<div class="mobile-wrapper">
 		<div class="bg-idea bg">
 			<div class="bg-inside">
-				<h3><span>Parte I</span><strong>A IDEIA</strong></h3>
+				<h3><span>PARTE I</span><strong>A IDEIA</strong></h3>
 				<div class="mouth" />
 				<div class="apple-shadow" />
 				<div class="apple">
@@ -142,6 +142,10 @@
 			</div>
 		</div>
 	</div>
+	<!-- MOBILE -->
+	<img src="src/img/idea/circle@2x.png" class="mobile-circle" />
+	<h3 class="is-mobile"><span>PARTE I</span><strong>A IDEIA</strong></h3>
+	<!-- END MOBILE -->
 	<div class="top">
 		<a href="#toc">
 			<div class="fa fa-arrow-up" />
@@ -155,7 +159,7 @@
 	</div>
 	<!-- FIM 1 - IDEIA -->
 
-	<div id="team" class="anchor" />
+	<div id="time" class="anchor" />
 	<div class="mobile-wrapper">
 		<div class="bg-team bg">
 			<div class="bg-inside">
@@ -165,10 +169,14 @@
 				</div>
 				<div class="top" />
 				<div class="top-leg" />
-				<h3><span>Parte II</span><strong class="em27">UM TIME EXCELENTE</strong></h3>
+				<h3><span>PARTE II</span><strong class="em27">UM TIME EXCELENTE</strong></h3>
 			</div>
 		</div>
 	</div>
+	<!-- MOBILE -->
+	<img src="src/img/team/circle@2x.png" class="mobile-circle" />
+	<h3 class="is-mobile"><span>PARTE II</span><strong>UM TIME EXCELENTE</strong></h3>
+	<!-- END MOBILE -->
 	<div class="top">
 		<a href="#toc">
 			<div class="fa fa-arrow-up" />
@@ -180,7 +188,8 @@
 		<Capitulo2_Time />
 		<!-- FIM 2 - TIME EXCELENTE -->
 	</div>
-	<div id="product" class="anchor" />
+
+	<div id="produto" class="anchor" />
 	<div class="mobile-wrapper">
 		<div class="bg-product bg">
 			<div class="bg-inside">
@@ -190,11 +199,15 @@
 				</div>
 				<div class="machine" />
 				<h3 class="right em2">
-					<span>Parte III</span><strong class="em2 ml-4">UM PRODUTO EXCELENTE</strong>
+					<span>PARTE III</span><strong class="em2 ml-4">UM PRODUTO EXCELENTE</strong>
 				</h3>
 			</div>
 		</div>
 	</div>
+	<!-- MOBILE -->
+	<img src="src/img/product/circle@2x.png" class="mobile-circle" />
+	<h3 class="is-mobile"><span>PARTE III</span><strong>UM PRODUTO EXCELENTE</strong></h3>
+	<!-- END MOBILE -->
 	<div class="top">
 		<a href="#toc">
 			<div class="fa fa-arrow-up" />
@@ -206,7 +219,7 @@
 		<Capitulo3_Produto />
 		<!-- FIM 2 - PRODUTO EXCELENTE -->
 	</div>
-	<div id="execution" class="anchor" />
+	<div id="execução" class="anchor" />
 	<div class="mobile-wrapper">
 		<div class="bg-execution bg">
 			<div class="bg-inside">
@@ -218,11 +231,15 @@
 				<div class="dot2" />
 				<div class="dot3" />
 				<h3 class="right">
-					<span>Parte IV</span><strong class="em25">UMA Execução Excelente</strong>
+					<span>PARTE IV</span><strong class="em25">UMA EXECUÇÃO EXCELENTE</strong>
 				</h3>
 			</div>
 		</div>
 	</div>
+	<!-- MOBILE -->
+	<img src="src/img/execution/circle@2x.png" class="mobile-circle" />
+	<h3 class="is-mobile"><span>PARTE IV</span><strong>UMA EXECUÇÃO EXCELENTE</strong></h3>
+	<!-- END MOBILE -->
 	<div class="top">
 		<a href="#toc">
 			<div class="fa fa-arrow-up" />
@@ -234,7 +251,7 @@
 		<Capitulo4_Exe />
 		<!-- FIM 4 - EXECUÇÃO EXCELENTE -->
 	</div>
-	<div id="growth" class="anchor" />
+	<div id="crescimento" class="anchor" />
 	<div class="mobile-wrapper">
 		<div class="bg-growth bg">
 			<div class="bg-inside">
@@ -250,10 +267,14 @@
 					</div>
 					<div class="pot" />
 				</div>
-				<h3 class="right"><span>Parte IV: Execução</span><strong>Crescimento</strong></h3>
+				<h3 class="right"><span>PARTE IV: EXECUÇÃO</span><strong>CRESCIMENTO</strong></h3>
 			</div>
 		</div>
 	</div>
+	<!-- MOBILE -->
+	<img src="src/img/growth/circle@2x.png" class="mobile-circle" />
+	<h3 class="is-mobile"><span>PARTE IV: EXECUÇÃO</span><strong>CRESCIMENTO</strong></h3>
+	<!-- END MOBILE -->
 	<div class="top">
 		<a href="#toc">
 			<div class="fa fa-arrow-up" />
@@ -265,15 +286,19 @@
 		<Capitulo4_1_Crescimento />
 		<!-- FIM 4.1 - CRESCIMENTO -->
 	</div>
-	<div id="focus" class="anchor" />
+	<div id="foco" class="anchor" />
 	<div class="mobile-wrapper">
 		<div class="bg-focus bg">
 			<div class="bg-inside">
 				<div class="light" />
-				<h3><span>Parte IV: Execução</span><strong>Foco e Intensidade</strong></h3>
+				<h3><span>PARTE IV: EXECUÇÃO</span><strong>FOCO E INTENSIDADE</strong></h3>
 			</div>
 		</div>
 	</div>
+	<!-- MOBILE -->
+	<img src="src/img/focus/circle@2x.png" class="mobile-circle" />
+	<h3 class="is-mobile"><span>PARTE IV: EXECUÇÃO</span><strong>FOCO E INTENSIDADE</strong></h3>
+	<!-- END MOBILE -->
 	<div class="top">
 		<a href="#toc">
 			<div class="fa fa-arrow-up" />
@@ -308,11 +333,15 @@
 					</div>
 				</div>
 				<h3 class="right">
-					<span>Parte IV: Execução</span><strong>Funções <em>do</em> CEO</strong>
+					<span>PARTE IV: EXECUÇÃO</span><strong>FUNÇÕES <em>DO</em> CEO</strong>
 				</h3>
 			</div>
 		</div>
 	</div>
+	<!-- MOBILE -->
+	<img src="src/img/ceo/circle@2x.png" class="mobile-circle" />
+	<h3 class="is-mobile"><span>PARTE IV: EXECUÇÃO</span><strong>FUNÇÕES DO CEO</strong></h3>
+	<!-- END MOBILE -->
 	<div class="top">
 		<a href="#toc">
 			<div class="fa fa-arrow-up" />
@@ -325,7 +354,7 @@
 		<!-- FIM 4.3 - FUNÇÕES DO CEO -->
 	</div>
 
-	<div id="hiring" class="anchor" />
+	<div id="contratação" class="anchor" />
 	<div class="mobile-wrapper">
 		<div class="bg-hiring bg">
 			<div class="bg-inside">
@@ -334,11 +363,17 @@
 					<div class="text" />
 				</div>
 				<h3 class="right">
-					<span>Parte IV: Execução</span><strong class="em2">Contratação e Gerenciamento</strong>
+					<span>PARTE IV: EXECUÇÃO</span><strong class="em2">CONTRATAÇÃO E GERENCIAMENTO</strong>
 				</h3>
 			</div>
 		</div>
 	</div>
+	<!-- MOBILE -->
+	<img src="src/img/hiring/circle@2x.png" class="mobile-circle" />
+	<h3 class="is-mobile">
+		<span>PARTE IV: EXECUÇÃO</span><strong>CONTRATAÇÃO E GERENCIAMENTO</strong>
+	</h3>
+	<!-- END MOBILE -->
 	<div class="top">
 		<a href="#toc">
 			<div class="fa fa-arrow-up" />
@@ -350,16 +385,22 @@
 		<Capitulo4_4_Gerenciamento />
 		<!-- FIM 4.4 - CONTRATAÇÃO E GERENCIAMENTO -->
 	</div>
-	<div id="competition" class="anchor" />
+	<div id="concorrentes" class="anchor" />
 	<div class="mobile-wrapper">
 		<div class="bg-competition bg">
 			<div class="bg-inside">
 				<div class="waves" />
 				<div class="fin" />
-				<h3 class="right"><span>Parte IV: Execução</span><strong>Concorrentes</strong></h3>
+				<h3 class="right"><span>PARTE IV: EXECUÇÃO</span><strong>CONCORRENTES</strong></h3>
 			</div>
 		</div>
 	</div>
+	<!-- MOBILE -->
+	<img src="src/img/competition/circle@2x.png" class="mobile-circle" />
+	<h3 class="is-mobile">
+		<span>PARTE IV: EXECUÇÃO</span><strong>CONCORRENTES</strong>
+	</h3>
+	<!-- END MOBILE -->
 	<div class="top">
 		<a href="#toc">
 			<div class="fa fa-arrow-up" />
@@ -371,17 +412,23 @@
 		<Capitulo4_5_Concorrentes />
 		<!-- FIM 4.5 - CONCORRENTES -->
 	</div>
-	<div id="money" class="anchor" />
+	<div id="receita" class="anchor" />
 	<div class="mobile-wrapper">
 		<div class="bg-money bg">
 			<div class="bg-inside">
 				<div class="money-outside">
 					<div class="money" />
 				</div>
-				<h3><span>Parte IV: Execução</span><strong>Gerando Receita</strong></h3>
+				<h3><span>PARTE IV: EXECUÇÃO</span><strong>GERANDO RECEITA</strong></h3>
 			</div>
 		</div>
 	</div>
+	<!-- MOBILE -->
+	<img src="src/img/money/circle@2x.png" class="mobile-circle" />
+	<h3 class="is-mobile">
+		<span>PARTE IV: EXECUÇÃO</span><strong>GERANDO RECEITA</strong>
+	</h3>
+	<!-- END MOBILE -->
 	<div class="top">
 		<a href="#toc">
 			<div class="fa fa-arrow-up" />
@@ -393,17 +440,23 @@
 		<Capitulo4_6_Receita />
 		<!-- FIM 4.6 - GERANDO RECEITA -->
 	</div>
-	<div id="fundraising" class="anchor" />
+	<div id="capital" class="anchor" />
 	<div class="mobile-wrapper">
 		<div class="bg-fundraising bg">
 			<div class="bg-inside">
 				<div class="graph">
 					<div class="arrow" />
 				</div>
-				<h3><span>Parte IV: Execução</span><strong class="em2">Captação de Recursos</strong></h3>
+				<h3><span>PARTE IV: EXECUÇÃO</span><strong class="em2">CAPTAÇÃO DE RECURSOS</strong></h3>
 			</div>
 		</div>
 	</div>
+	<!-- MOBILE -->
+	<img src="src/img/fundraising/circle@2x.png" class="mobile-circle" />
+	<h3 class="is-mobile">
+		<span>PARTE IV: EXECUÇÃO</span><strong>CAPTAÇÃO DE RECURSOS</strong>
+	</h3>
+	<!-- END MOBILE -->
 	<div class="top">
 		<a href="#toc">
 			<div class="fa fa-arrow-up" />
@@ -415,7 +468,7 @@
 		<Capitulo4_7_Capital />
 		<!-- FIM 4.7 - CAPTAÇÃO DE RECURSOS  -->
 	</div>
-	<div id="closing" class="anchor" />
+	<div id="fim" class="anchor" />
 	<div class="mobile-wrapper">
 		<div class="bg-closing bg">
 			<div class="sky">
@@ -426,11 +479,17 @@
 			</div>
 			<div class="bg-inside">
 				<div class="sun" />
-				<h3 class="right"><strong>Pensamentos Finais</strong></h3>
+				<h3 class="right"><strong>PENSAMENTOS FINAIS</strong></h3>
 			</div>
 			<div class="water" />
 		</div>
 	</div>
+	<!-- MOBILE -->
+	<img src="src/img/closing/circle@2x.png" class="mobile-circle" />
+	<h3 class="is-mobile">
+		<strong>PENSAMENTOS FINAIS</strong>
+	</h3>
+	<!-- END MOBILE -->
 	<div class="top">
 		<a href="#toc">
 			<div class="fa fa-arrow-up" />
@@ -469,7 +528,7 @@
 	<br />
 	<a href="#toc" class="bottom-toc text-center">
 		<div class="fa fa-arrow-up" />
-		Voltar ao <strong> Índice</strong></a
+		Voltar ao<strong> Índice</strong></a
 	>
 	<script src="lib/jquery/dist/jquery.min.js"></script>
 	<script src="lib/bootstrap/dist/js/bootstrap.js"></script>
