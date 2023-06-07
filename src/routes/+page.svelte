@@ -535,10 +535,6 @@
 </main>
 
 <style>
-	.em3 {
-		font-size: 3em;
-	}
-
 	.em27 {
 		font-size: 2.7em;
 	}
