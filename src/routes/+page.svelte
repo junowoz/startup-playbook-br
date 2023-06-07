@@ -21,7 +21,7 @@
 	import Capitulo5_Fim from './components/5-fim.md';
 </script>
 
-<body id="home">
+<main id="home">
 	<div class="container-content">
 		<div class="text-center">
 			<h1>Manual do Empreendedor (Startup Playbook)</h1>
@@ -550,7 +550,7 @@
 		ga('create', 'UA-69561835-1', 'auto');
 		ga('send', 'pageview');
 	</script>
-</body>
+</main>
 
 <style>
 	.em3 {
