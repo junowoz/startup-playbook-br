@@ -2,7 +2,6 @@
 	import '../lib/bootstrap/dist/css/bootstrap.min.css';
 	import '../lib/fontawesome/css/font-awesome.min.css';
 	import '../css/all.min.css';
-	import '../css/mobile.css';
 
 	import Intro_1 from './components/0-1-intro.md';
 	import Intro_2 from './components/0-2-intro.md';
