@@ -506,7 +506,7 @@
 	<br />
 	<div class="text-center">
 		<a
-			href="https://twitter.com/intent/tweet?source=webclient&amp;text=Startup+Playbook+by+Sam+Altman+(@sama)+traduzido+para+o+Português+por+@junowoz+http://playbook.junowoz.com"
+			href="https://twitter.com/intent/tweet?source=webclient&amp;text=Startup+Playbook+by+Sam+Altman+(@sama)+traduzido+para+o+Português+por+@junowoz+https://playbook.junowoz.com"
 			class="social-link social-twitter"
 			target="_blank"
 		>
