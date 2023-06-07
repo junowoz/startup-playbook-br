@@ -143,7 +143,7 @@
 		</div>
 	</div>
 	<!-- MOBILE -->
-	<img class="bg-idea-mobile mobile-circle" />
+	<img src="img/idea/circle@2x.png" class="mobile-circle" />
 	<h3 class="is-mobile"><span>PARTE I</span><strong>A IDEIA</strong></h3>
 	<!-- END MOBILE -->
 	<div class="top">
@@ -174,7 +174,7 @@
 		</div>
 	</div>
 	<!-- MOBILE -->
-	<img src="../img/team/circle@2x.png" class="mobile-circle" />
+	<img src="img/team/circle@2x.png" class="mobile-circle" />
 	<h3 class="is-mobile"><span>PARTE II</span><strong>UM TIME EXCELENTE</strong></h3>
 	<!-- END MOBILE -->
 	<div class="top">
@@ -205,7 +205,7 @@
 		</div>
 	</div>
 	<!-- MOBILE -->
-	<img src="../img/product/circle@2x.png" class="mobile-circle" />
+	<img src="img/product/circle@2x.png" class="mobile-circle" />
 	<h3 class="is-mobile"><span>PARTE III</span><strong>UM PRODUTO EXCELENTE</strong></h3>
 	<!-- END MOBILE -->
 	<div class="top">
@@ -237,7 +237,7 @@
 		</div>
 	</div>
 	<!-- MOBILE -->
-	<img src="../img/execution/circle@2x.png" class="mobile-circle" />
+	<img src="img/execution/circle@2x.png" class="mobile-circle" />
 	<h3 class="is-mobile"><span>PARTE IV</span><strong>UMA EXECUÇÃO EXCELENTE</strong></h3>
 	<!-- END MOBILE -->
 	<div class="top">
@@ -272,7 +272,7 @@
 		</div>
 	</div>
 	<!-- MOBILE -->
-	<img src="../img/growth/circle@2x.png" class="mobile-circle" />
+	<img src="img/growth/circle@2x.png" class="mobile-circle" />
 	<h3 class="is-mobile"><span>PARTE IV: EXECUÇÃO</span><strong>CRESCIMENTO</strong></h3>
 	<!-- END MOBILE -->
 	<div class="top">
@@ -296,7 +296,7 @@
 		</div>
 	</div>
 	<!-- MOBILE -->
-	<img src="../img/focus/circle@2x.png" class="mobile-circle" />
+	<img src="img/focus/circle@2x.png" class="mobile-circle" />
 	<h3 class="is-mobile"><span>PARTE IV: EXECUÇÃO</span><strong>FOCO E INTENSIDADE</strong></h3>
 	<!-- END MOBILE -->
 	<div class="top">
@@ -339,7 +339,7 @@
 		</div>
 	</div>
 	<!-- MOBILE -->
-	<img src="../img/ceo/circle@2x.png" class="mobile-circle" />
+	<img src="img/ceo/circle@2x.png" class="mobile-circle" />
 	<h3 class="is-mobile"><span>PARTE IV: EXECUÇÃO</span><strong>FUNÇÕES DO CEO</strong></h3>
 	<!-- END MOBILE -->
 	<div class="top">
@@ -369,7 +369,7 @@
 		</div>
 	</div>
 	<!-- MOBILE -->
-	<img src="../img/hiring/circle@2x.png" class="mobile-circle" />
+	<img src="img/hiring/circle@2x.png" class="mobile-circle" />
 	<h3 class="is-mobile">
 		<span>PARTE IV: EXECUÇÃO</span><strong>CONTRATAÇÃO E GERENCIAMENTO</strong>
 	</h3>
@@ -396,7 +396,7 @@
 		</div>
 	</div>
 	<!-- MOBILE -->
-	<img src="../img/competition/circle@2x.png" class="mobile-circle" />
+	<img src="img/competition/circle@2x.png" class="mobile-circle" />
 	<h3 class="is-mobile">
 		<span>PARTE IV: EXECUÇÃO</span><strong>CONCORRENTES</strong>
 	</h3>
@@ -424,7 +424,7 @@
 		</div>
 	</div>
 	<!-- MOBILE -->
-	<img src="../img/money/circle@2x.png" class="mobile-circle" />
+	<img src="img/money/circle@2x.png" class="mobile-circle" />
 	<h3 class="is-mobile">
 		<span>PARTE IV: EXECUÇÃO</span><strong>GERANDO RECEITA</strong>
 	</h3>
@@ -452,7 +452,7 @@
 		</div>
 	</div>
 	<!-- MOBILE -->
-	<img src="../img/fundraising/circle@2x.png" class="mobile-circle" />
+	<img src="img/fundraising/circle@2x.png" class="mobile-circle" />
 	<h3 class="is-mobile">
 		<span>PARTE IV: EXECUÇÃO</span><strong>CAPTAÇÃO DE RECURSOS</strong>
 	</h3>
@@ -485,7 +485,7 @@
 		</div>
 	</div>
 	<!-- MOBILE -->
-	<img src="../img/closing/circle@2x.png" class="mobile-circle" />
+	<img src="img/closing/circle@2x.png" class="mobile-circle" />
 	<h3 class="is-mobile">
 		<strong>PENSAMENTOS FINAIS</strong>
 	</h3>
@@ -530,7 +530,7 @@
 		<div class="fa fa-arrow-up" />
 		Voltar ao<strong> Índice</strong></a
 	>
-	<!-- <script src="lib/jquery/dist/jquery.min.js"></script>
+	<script src="lib/jquery/dist/jquery.min.js"></script>
 	<script src="lib/bootstrap/dist/js/bootstrap.js"></script>
 	<script src="js/all.min.js"></script>
 	<script>
@@ -550,7 +550,7 @@
 
 		ga('create', 'UA-69561835-1', 'auto');
 		ga('send', 'pageview');
-	</script> -->
+	</script>
 </body>
 
 <style>
