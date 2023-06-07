@@ -1,8 +1,8 @@
-Aqui está o segredo do sucesso: tenha um ótimo produto. Isso é a única coisa que todas as grandes empresas têm em comum.
+Aqui está o segredo do sucesso: tenha um ótimo produto. Essa é a única coisa que todas as grandes empresas têm em comum.
 
 Se você não construir um produto que os usuários amem, eventualmente fracassará. No entanto, os fundadores sempre procuram algum truque. As startups são o momento da sua vida em que os truques deixam de funcionar.
 
-Um ótimo produto é a única maneira de crescer a longo prazo. Eventualmente, sua empresa se tornará tão grande que todos os hacks de crescimento deixarão de funcionar e você terá que crescer por meio do interesse das pessoas em usar seu produto. Isso é a coisa mais importante a se entender sobre empresas super bem-sucedidas. Não há outra maneira. Pense em todas as empresas de tecnologia realmente bem-sucedidas - todas fazem isso.
+Um ótimo produto é a única maneira de crescer a longo prazo. Eventualmente, sua empresa se tornará tão grande que todos os hacks de crescimento deixarão de funcionar e você terá que crescer por meio do interesse das pessoas em usar seu produto. Essa é a coisa mais importante a se entender sobre empresas super bem-sucedidas. Não há outra maneira. Pense em todas as empresas de tecnologia realmente bem-sucedidas - todas fazem isso.
 
 Procure construir uma "máquina de melhoria de produto" em sua empresa. Você deve conversar com seus usuários e observá-los usando seu produto, descobrir quais partes estão abaixo do padrão e então melhorar seu produto. Depois, faça isso novamente. Esse ciclo deve ser o foco número um da empresa e deve impulsionar tudo o mais. Se você melhorar seu produto em 5% a cada semana, o progresso será realmente significativo.
 
@@ -24,4 +24,4 @@ Quando as startups não têm certeza do que fazer a seguir com seu produto, ou s
 
 Os melhores fundadores parecem se importar um pouco demais com a qualidade do produto, até mesmo em relação a detalhes aparentemente insignificantes. Mas parece funcionar. A propósito, "produto" inclui todas as interações que um usuário tem com a empresa. Você precisa oferecer um ótimo suporte, ótimas interações de vendas, etc.
 
-Lembre-se, se você não tiver um ótimo produto, nada mais vai salvar você.
+Lembre-se, se você não tiver um ótimo produto, nada mais vai te salvar.

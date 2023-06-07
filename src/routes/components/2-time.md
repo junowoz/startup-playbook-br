@@ -2,7 +2,7 @@ Equipes medianas não constroem grandes empresas. Uma das coisas que mais avalia
 
 O que torna um ótimo fundador? As características mais importantes são a inabalabilidade, a determinação, a formidabilidade e a engenhosidade. Inteligência e paixão também são muito valorizadas. Essas qualidades são muito mais importantes do que a experiência e certamente a "expertise na linguagem X e na estrutura Y".
 
-Percebemos que os fundadores mais bem-sucedidos são pessoas com as quais é fácil trabalhar porque você sente que "ele ou ela vão resolver, não importa o que seja". Às vezes, você pode ter sucesso apenas pela força de vontade.
+Percebemos que os fundadores mais bem-sucedidos são pessoas com as quais é fácil trabalhar, pois você sente que "ele ou ela vão resolver, não importa o que seja". Às vezes, você pode ter sucesso apenas pela força de vontade.
 
 Bons fundadores possuem várias características aparentemente contraditórias. Um exemplo importante é a rigidez e a flexibilidade. Você quer ter crenças fortes sobre o núcleo da empresa e sua missão, mas ainda assim ser muito flexível e estar disposto a aprender coisas novas quando se trata de quase tudo o mais.
 
@@ -16,4 +16,4 @@ Considere esses critérios ao escolher um cofundador - é uma das decisões mais
 
 O melhor caso, de longe, é ter um bom cofundador. O próximo melhor é ser um fundador solo. O pior caso, de longe, é ter um cofundador ruim. Se as coisas não estiverem funcionando, você deve se separar rapidamente.
 
-Uma observação rápida sobre participação acionária: a conversa sobre a divisão de participação acionária não fica mais fácil com o tempo - é melhor definir isso desde o início. Quase igual é o melhor, embora, talvez no caso de dois fundadores, seja melhor ter uma pessoa com uma ação a mais para evitar impasses quando os cofundadores tiverem uma desavença.
+Uma observação rápida sobre participação acionária: a conversa sobre a divisão de participação acionária não fica mais fácil com o tempo - é melhor definir isso desde o início. Quase igual é o melhor, embora talvez, no caso de dois fundadores, seja melhor ter uma pessoa com uma ação a mais para evitar impasses quando os cofundadores tiverem uma desavença.

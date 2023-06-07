@@ -1,4 +1,4 @@
-Lembre-se de que pelo menos mil pessoas têm cada grande ideia. Uma delas realmente se torna bem-sucedida. A diferença está na execução. É uma tarefa árdua, e todos desejam que haja algum outro caminho para transformar "ideia" em "sucesso", mas ninguém descobriu isso ainda.
+Lembre-se de que pelo menos mil pessoas têm cada grande ideia. Uma delas realmente se torna bem-sucedida. A diferença está na execução. É um desafio, e todos desejam que exista algum outro caminho para transformar "ideia" em "sucesso", mas ninguém descobriu isso ainda.
 
 Então, tudo o que você precisa é uma ótima ideia, uma ótima equipe, um ótimo produto e uma ótima execução. Tão fácil! ;)
 
