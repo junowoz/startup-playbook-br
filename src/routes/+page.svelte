@@ -527,7 +527,7 @@
 	<br />
 	<a href="#toc" class="bottom-toc text-center">
 		<div class="fa fa-arrow-up" />
-		Voltar ao<strong> Índice</strong></a
+		Voltar ao <strong> Índice</strong></a
 	>
 	<script src="lib/jquery/dist/jquery.min.js"></script>
 	<script src="lib/bootstrap/dist/js/bootstrap.js"></script>
