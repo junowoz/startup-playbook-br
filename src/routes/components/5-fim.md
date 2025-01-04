@@ -1,5 +1,5 @@
-Lembre-se de que pelo menos mil pessoas têm cada grande ideia. Uma delas realmente se torna bem-sucedida. A diferença está na execução. É um desafio, e todos desejam que exista algum outro caminho para transformar "ideia" em "sucesso", mas ninguém descobriu isso ainda.
+Lembre-se de que pelo menos mil pessoas têm cada grande ideia. Uma delas efetivamente se torna bem-sucedida. A diferença vem da execução. É um trabalho árduo, e todo mundo gostaria que houvesse outra forma de transformar “ideia” em “sucesso”, mas ninguém descobriu outra ainda.
 
-Então, tudo o que você precisa é uma ótima ideia, uma ótima equipe, um ótimo produto e uma ótima execução. Tão fácil! ;)
+Então tudo de que você precisa é uma ótima ideia, um ótimo time, um ótimo produto e uma ótima execução. Tão fácil! ;)
 
-> Agradecimentos a Paul Buchheit, Erica Carpenter, Brian Chesky, Adam D'Angelo, Drew Houston, Justin Kan, Matt Krisiloff, Aaron Levie, Gabriel Leydon, Jessica Livingston, Dustin Moskovitz, David Rusenko e Colleen Taylor por contribuírem com seus pensamentos para isso.
+> Obrigado a Paul Buchheit, Erica Carpenter, Brian Chesky, Adam D’Angelo, Drew Houston, Justin Kan, Matt Krisiloff, Aaron Levie, Gabriel Leydon, Jessica Livingston, Dustin Moskovitz, David Rusenko e Colleen Taylor por contribuir com ideias para este texto.

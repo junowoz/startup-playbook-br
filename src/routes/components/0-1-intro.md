@@ -1,7 +1,7 @@
-Passamos muito tempo orientando startups. Embora o aconselhamento individual seja sempre essencial, pensamos que poderíamos ampliar o alcance da Y Combinator se conseguíssemos resumir as partes mais generalizáveis desse aconselhamento em uma espécie de manual para as empresas da YC e do YC Fellowship.
+Nós passamos muito tempo aconselhando startups. Apesar de o aconselhamento individual sempre ser fundamental, achamos que poderíamos ajudar a escalar o Y Combinator se pudéssemos destilar as partes mais gerais desse aconselhamento em uma espécie de manual que pudéssemos dar para empresas do YC e do YC Fellowship.
 
-Então, decidimos disponibilizá-lo para todos.
+Então pensamos que deveríamos simplesmente disponibilizá-lo para todos.
 
-Este manual é destinado a pessoas que são novas no mundo das startups. A maioria destas informações não será novidade para quem já leu bastante sobre o que os parceiros da YC escreveram — o objetivo é centralizar tudo em um único lugar.
+Este material é voltado para pessoas que estão entrando no mundo das startups. Grande parte dele não será novidade para quem já leu muito do que os parceiros do YC escreveram — mas o objetivo aqui é reunir tudo em um só lugar.
 
-Pode ser que criemos uma Parte II sobre como escalar uma startup - este manual aborda principalmente como iniciar uma.
+Talvez haja uma parte II sobre como escalar uma startup mais adiante — este manual aborda principalmente como começar uma.

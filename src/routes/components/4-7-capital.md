@@ -1,33 +1,33 @@
-A maioria das startups capta recursos em algum momento.
+A maioria das startups capta dinheiro em algum momento.
 
-Você deve captar recursos quando precisar ou quando estiverem disponíveis em boas condições. Tenha cuidado para não perder seu senso de frugalidade ou resolver problemas simplesmente jogando dinheiro neles. Não ter dinheiro suficiente pode ser ruim, mas ter muito dinheiro quase sempre é ruim.
+Você deve captar quando precisar ou quando estiver disponível em boas condições. Tome cuidado para não perder a noção de frugalidade nem resolver problemas atirando dinheiro neles. Não ter dinheiro suficiente pode ser ruim, mas ter dinheiro demais quase sempre é ruim.
 
-O segredo para captar recursos com sucesso é ter uma boa empresa. Todo o resto que os fundadores fazem para tentar otimizar demais o processo provavelmente importa apenas cerca de 5% do tempo. Os investidores estão procurando empresas que serão realmente bem-sucedidas, independentemente de investirem ou não, mas que podem crescer mais rápido com capital externo. A parte de "realmente bem-sucedida" é importante porque os retornos dos investidores são dominados pelos grandes sucessos. Se um investidor acredita que você tem 100% de chance de criar uma empresa de $10 milhões, mas quase nenhuma chance de construir uma empresa maior, ele/ela provavelmente ainda não investirá, mesmo a uma avaliação muito baixa. Sempre explique por que você pode ser um grande sucesso.
+O segredo para captar recursos com sucesso é ter uma boa empresa. Todo o resto que fundadores fazem para tentar superotimizar o processo provavelmente só importa uns 5% das vezes. Investidores procuram empresas que serão realmente bem-sucedidas com ou sem o investimento deles, mas que podem crescer mais rápido com capital externo. A parte do “realmente bem-sucedidas” é importante — porque os retornos dos investidores são dominados pelos grandes sucessos. Se um investidor acredita que você tem 100% de chance de criar uma empresa de 10 milhões de dólares, mas quase nenhuma chance de se tornar algo muito maior, ele ou ela provavelmente não vai investir, mesmo que o valuation seja bem baixo. Sempre explique por que você pode vir a ser um sucesso enorme.
 
-Os investidores são impulsionados pelos dois medos de perder o próximo Google e o medo de perder dinheiro em algo que, em retrospecto, parece obviamente estúpido. (Para as melhores empresas, eles temem ambos ao mesmo tempo.)
+Os investidores são guiados pelo medo duplo de perder o próximo Google e pelo medo de perder dinheiro em algo que, depois, pareça obviamente tolo. (Para as melhores empresas, eles temem ambas as coisas ao mesmo tempo.)
 
-É uma má ideia tentar captar recursos quando sua empresa não está em boa forma o suficiente para atrair capital. Você vai queimar sua reputação e desperdiçar tempo.
+É uma má ideia tentar captar dinheiro quando sua empresa não está boa o suficiente para atrair capital. Você vai queimar reputação e desperdiçar tempo.
 
-Não fique desanimado se tiver dificuldade em captar recursos. Muitas das melhores empresas tiveram dificuldades nisso porque as melhores empresas muitas vezes parecem ruins no início (e quase sempre parecem desatualizadas). Quando os investidores dizem não, acredite no não, mas não na razão. E lembre-se de que qualquer coisa que não seja um "sim" é um "não" - os investidores têm uma capacidade maravilhosa de dizer "não" de uma forma que soa como "talvez sim".
+Não fique desanimado se tiver dificuldades para captar. Muitas das melhores empresas já enfrentaram esse problema, porque as melhores empresas costumam parecer ruins no começo (e normalmente não são vistas como “na moda”). Quando investidores dizem “não”, acredite no “não”, mas não no motivo. E lembre-se de que qualquer coisa que não seja “sim” é “não” — investidores têm uma habilidade impressionante de dizer “não” de um modo que soa como “talvez sim”.
 
-É muito importante ter conversas de captação de recursos em paralelo - não siga uma lista de investidores favoritos sequencialmente. A maneira de fazer os investidores agirem é o medo de que outros investidores tirem a oportunidade deles.
+É muito importante conversar com todos os investidores em paralelo — não vá descendo sua lista de investidores preferidos de forma sequencial. A maneira de fazer os investidores agirem é o medo de perderem a oportunidade para outros.
 
-Veja a captação de recursos como um mal necessário e algo para ser feito o mais rápido possível. Alguns fundadores se apaixonam pela captação de recursos; isso é sempre ruim. É melhor ter apenas um fundador fazendo isso para que a empresa não pare.
+Encare a captação como um mal necessário e algo a ser resolvido o mais rápido possível. Alguns fundadores se apaixonam por captar recursos; isso é sempre ruim. É melhor deixar apenas um fundador fazendo isso para a empresa não parar.
 
-Lembre-se de que a maioria dos VC não sabe muito sobre a maioria das indústrias. As métricas são sempre as mais convincentes.
+Lembre-se de que a maioria dos VCs não entende muito de quase todos os setores. Métricas são quase sempre o que mais convence.
 
-Está começando a mudar, mas a maioria dos investidores (Y Combinator sendo uma exceção notável) infelizmente ainda exige apresentações de pessoas que ambos conhecem para te levarem a sério.
+Isso está começando a mudar, mas a maior parte dos investidores (com o Y Combinator sendo uma exceção notável) infelizmente ainda exige apresentações por pessoas que vocês conheçam para levá-los a sério.
 
-Insista em termos claros (termos complicados se acumulam e pioram a cada rodada), mas não otimize demais, especialmente na avaliação. A avaliação é algo quantitativo para competir, e os fundadores adoram competir pela maior avaliação. Mas as avaliações intermediárias não importam muito.
+Exija termos limpos (termos complicados se acumulam e pioram a cada rodada), mas não exagere na otimização, especialmente em valuation. Valuation é algo quantificável para competir, e então os fundadores adoram disputar quem consegue o valuation mais alto. Mas valuations intermediárias não importam tanto.
 
-O primeiro investimento é o mais difícil de obter, então concentre suas energias em obtê-lo, o que geralmente significa dar atenção especial àquele que mais te apoia. Sempre tenha vários planos, um dos quais é não levantar nada, e seja flexível dependendo do interesse - se você puder usar mais dinheiro de forma produtiva e estiver disponível em termos razoáveis, esteja aberto a aceitá-lo.
+O primeiro cheque é o mais difícil de conseguir, então concentre-se em obtê-lo, o que normalmente significa focar sua atenção em quem mais gosta de você. Sempre tenha vários planos, um deles sendo não captar nada, e seja flexível de acordo com o interesse — se você puder usar mais dinheiro e estiver disponível em termos razoáveis, esteja aberto a aceitá-lo.
 
-Um elemento importante para ser bom em apresentações é tornar sua história o mais clara e fácil de entender possível. Claro, o elemento mais importante é realmente ter uma boa empresa. Existem muitos pensamentos sobre o que incluir em uma apresentação, mas, no mínimo, você precisa ter: missão, problema, produto/serviço, modelo de negócios, equipe, mercado e taxa de crescimento do mercado e informações financeiras.
+Uma das chaves para ser bom em apresentar seu pitch é tornar sua história o mais clara e simples possível. Claro, a chave mais importante é ter realmente uma boa empresa. Existem muitas ideias sobre o que incluir no pitch, mas no mínimo você precisa ter: missão, problema, produto/serviço, modelo de negócio, equipe, mercado e taxa de crescimento do mercado, e finanças.
 
-Lembre-se de que o critério para cada rodada de captação de recursos é muito mais alto. Se você conseguiu apenas ser um apresentador convincente para sua rodada inicial, não se surpreenda se não funcionar para a Série A.
+Lembre-se de que a cada rodada de financiamento a régua fica mais alta. Se você conseguiu se virar só com uma apresentação atraente na rodada seed, não se surpreenda quando isso não funcionar na Série A.
 
-Investidores bons realmente agregam muito valor. Investidores ruins prejudicam muito. A maioria dos investidores fica no meio-termo e nem acrescenta nem prejudica. Investidores que investem apenas uma pequena quantia geralmente não fazem nada por você (ou seja, cuidado com as rodadas de festas).
+Bons investidores de fato agregam muito valor. Maus investidores atrapalham muito. A maioria dos investidores fica no meio e não agrega nem atrapalha. Investidores que investem um valor pequeno geralmente não trazem benefício algum (ou seja, cuidado com “party rounds”).
 
-Ótimos membros do conselho são uma das melhores funções externas para uma empresa, além dos usuários, e as funções externas valem mais do que a maioria dos fundadores pensa. Esteja disposto a aceitar uma avaliação mais baixa para conseguir um ótimo membro do conselho que esteja disposto a se envolver bastante.
+Grandes membros de conselho são um dos melhores fatores externos de estímulo para a empresa, além dos usuários, e estímulos externos valem mais do que a maioria dos fundadores supõe. Esteja disposto a aceitar um valuation mais baixo para ter um ótimo conselheiro que esteja disposto a se envolver bastante.
 
-Acredito que este ensaio de Paul Graham é a melhor coisa disponível sobre captação de recursos.
+Acho que [este texto do Paul Graham](http://paulgraham.com/fr.html) sobre captação é o melhor que existe a respeito.
