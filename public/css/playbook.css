@@ -42,6 +42,8 @@
 }
 .bg.bg-ceo h3 strong {
   font-size: 70px;
+  /* FUNÇÕES tem Ç, que desenha mais alto que o inglês original. */
+  line-height: 1.2em;
 }
 .bg.bg-ceo h3 em {
   font-style: normal;
@@ -2231,6 +2233,8 @@
 }
 .bg.bg-hiring h3 strong {
   font-size: 50px;
+  /* CONTRATAÇÃO tem Ç e Ã, que desenham mais alto que o inglês original. */
+  line-height: 1.2em;
 }
 @media (max-width: 760px) {
   .bg.bg-hiring {
@@ -3251,6 +3255,29 @@ h3.is-mobile {
   padding-top: 10px;
   border-top: 3px solid #fff;
   display: inline-block;
+}
+
+/* Reduz o tamanho de títulos mais longos para caberem no banner sem
+   sobrepor a linha divisória ou vazar da caixa. No site original (Svelte)
+   isso vinha de um <style> com escopo de componente; aqui a duplicação da
+   classe garante a mesma especificidade sem depender de onde a classe é
+   usada (h3 ou strong). */
+.em27.em27 {
+  font-size: 2.7em;
+}
+.em25.em25 {
+  /* Maiúsculas com Ç/Ã (EXECUÇÃO) desenham mais alto que o inglês.
+     line-height maior evita que a tinta do texto cruze a linha divisória
+     acima. */
+  font-size: 2.5em;
+  line-height: 1.2em;
+}
+.em2.em2 {
+  font-size: 2em;
+  line-height: 1.2em;
+}
+.ml-4.ml-4 {
+  margin-left: 4em;
 }
 .top {
   height: 0;
