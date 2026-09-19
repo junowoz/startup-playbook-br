@@ -1,0 +1,13 @@
+# Startup Playbook (tradução em português)
+
+Tradução independente e não oficial, em português do Brasil, do Startup Playbook de Sam Altman. O texto original é de Sam Altman e as ilustrações são de Gregory Koberger. Este projeto não tem vínculo oficial com Sam Altman, a Y Combinator ou os detentores dos direitos do texto original.
+
+O texto cobre os temas de criar uma startup em estágio inicial: ideia, time, produto, execução, crescimento, foco, papel do CEO, contratação, concorrentes, receita e captação de capital.
+
+## Links
+
+- Tradução em português: https://playbook.junowoz.com/
+- Original em inglês (Sam Altman): https://playbook.samaltman.com/
+- Tradução em espanhol (Platzi): https://platzi.com/startup-playbook/
+- Código-fonte: https://github.com/junowoz/startup-playbook-br
+- Tradutor: https://junowoz.com

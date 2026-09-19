@@ -1,0 +1,687 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Manual do Empreendedor — Startup Playbook em português</title>
+	<meta name="description" content="Tradução para o português do Startup Playbook de Sam Altman: um manual sobre como criar uma startup, cobrindo ideia, time, produto e execução.">
+	<link rel="canonical" href="https://playbook.junowoz.com/">
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Manual do Empreendedor — Startup Playbook em português">
+	<meta property="og:description" content="Tradução para o português do Startup Playbook de Sam Altman: um manual sobre como criar uma startup, cobrindo ideia, time, produto e execução.">
+	<meta property="og:url" content="https://playbook.junowoz.com/">
+	<meta property="og:image" content="https://playbook.junowoz.com/img/facebook.png">
+	<meta property="og:image:alt" content="Manual do Empreendedor — Startup Playbook, ilustração de capa">
+	<meta property="og:site_name" content="Manual do Empreendedor">
+	<meta property="og:locale" content="pt_BR">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Manual do Empreendedor — Startup Playbook em português">
+	<meta name="twitter:description" content="Tradução para o português do Startup Playbook de Sam Altman: um manual sobre como criar uma startup, cobrindo ideia, time, produto e execução.">
+	<meta name="twitter:image" content="https://playbook.junowoz.com/img/facebook.png">
+
+	<link rel="alternate" hreflang="en" href="https://playbook.samaltman.com/">
+	<link rel="alternate" hreflang="es" href="https://platzi.com/startup-playbook/">
+	<link rel="alternate" hreflang="pt-BR" href="https://playbook.junowoz.com/">
+	<link rel="alternate" hreflang="x-default" href="https://playbook.samaltman.com/">
+
+	<link rel="icon" href="/favicon.ico" sizes="any">
+
+	<link rel="stylesheet" href="/css/playbook.css">
+	<link rel="preload" href="/fonts/pathway-gothic-one-latin.woff2" as="font" type="font/woff2" crossorigin>
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "Manual do Empreendedor — Startup Playbook em português",
+		"inLanguage": "pt-BR",
+		"author": {
+			"@type": "Person",
+			"name": "Sam Altman",
+			"url": "https://playbook.samaltman.com/"
+		},
+		"translator": {
+			"@type": "Person",
+			"name": "Juan José Gouvêa",
+			"url": "https://junowoz.com"
+		},
+		"image": "https://playbook.junowoz.com/img/facebook.png",
+		"mainEntityOfPage": "https://playbook.junowoz.com/",
+		"isBasedOn": "https://playbook.samaltman.com/",
+		"creditText": "Ilustrado por Gregory Koberger"
+	}
+	</script>
+</head>
+<body>
+	<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+	<main id="home">
+		<div class="container-content" id="conteudo">
+			<div class="text-center">
+				<h1>Manual do Empreendedor (Startup Playbook)</h1>
+				<h2>
+					Escrito por Sam Altman &middot; Ilustrado por Gregory Koberger &middot;
+					<a href="https://playbook.samaltman.com/" target="_blank" rel="noopener noreferrer">Original em inglês</a>
+					&middot;
+					<a href="https://platzi.com/startup-playbook/" target="_blank" rel="noopener noreferrer">Tradução para o espanhol</a>
+					<br />
+					<br />
+					Traduzido para o português por
+					<a href="https://junowoz.com" target="_blank" rel="noopener noreferrer">Juan José Gouvêa</a>
+				</h2>
+				<p>Esta é uma tradução independente, feita pela comunidade. Não tem vínculo com Sam Altman, a Y Combinator ou os detentores dos direitos do texto original, e não foi revisada nem endossada por eles.</p>
+			</div>
+
+			<!-- INTRO 1-->
+			<p>Nós passamos muito tempo aconselhando startups. Apesar de o aconselhamento individual sempre ser fundamental, achamos que poderíamos ajudar a escalar o Y Combinator se pudéssemos destilar as partes mais gerais desse aconselhamento em uma espécie de manual que pudéssemos dar para empresas do YC e do YC Fellowship.</p>
+			<p>Então pensamos que deveríamos simplesmente disponibilizá-lo para todos.</p>
+			<p>Este material é voltado para pessoas que estão entrando no mundo das startups. Grande parte dele não será novidade para quem já leu muito do que os parceiros do YC escreveram — mas o objetivo aqui é reunir tudo em um só lugar.</p>
+			<p>Talvez haja uma parte II sobre como escalar uma startup mais adiante — este manual aborda principalmente como começar uma.</p>
+			<!-- END INTRO 1-->
+		</div>
+		<nav id="toc" aria-label="Índice">
+			<ul class="toc">
+				<li>
+					<a href="#ideia" class="idea">
+						<div class="icon"></div>
+						<span>Parte I:</span> A Ideia</a>
+				</li>
+				<li>
+					<a href="#time" class="team">
+						<div class="icon"></div>
+						<span>Parte II:</span> Um Time Excelente</a>
+				</li>
+				<li>
+					<a href="#produto" class="product">
+						<div class="icon"></div>
+						<span>Parte III:</span> Um Produto Excelente</a>
+				</li>
+				<li>
+					<a href="#execucao" class="execution">
+						<div class="icon"></div>
+						<span>Parte IV:</span> Uma Execução Excelente</a>
+				</li>
+				<li>
+					<a href="#fim" class="closing">
+						<div class="icon"></div>
+						Pensamentos Finais</a>
+				</li>
+			</ul>
+			<div class="toc-arrow">
+				<ul class="toc sub">
+					<li>
+						<a href="#crescimento" class="growth">
+							<div class="icon"></div>
+							Crescimento</a>
+					</li>
+					<li>
+						<a href="#foco" class="focus">
+							<div class="icon"></div>
+							Foco e Intensidade</a>
+					</li>
+					<li>
+						<a href="#ceo" class="ceo">
+							<div class="icon"></div>
+							Funções do CEO</a>
+					</li>
+					<li>
+						<a href="#contratacao" class="hiring">
+							<div class="icon"></div>
+							Contratação e Gerenciamento</a>
+					</li>
+					<li>
+						<a href="#concorrentes" class="competition">
+							<div class="icon"></div>
+							Concorrentes</a>
+					</li>
+					<li>
+						<a href="#receita" class="money">
+							<div class="icon"></div>
+							Gerando Receita</a>
+					</li>
+					<li>
+						<a href="#capital" class="fundraising">
+							<div class="icon"></div>
+							Captação de Recursos</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container-content">
+			<!-- INTRO 2 -->
+			<p>Seu objetivo ao criar uma startup é fazer algo que as pessoas amem. Se conseguir isso, então você precisa descobrir como conseguir muito mais usuários. Mas essa primeira parte é crítica — pense nas empresas realmente bem-sucedidas de hoje. Todas elas começaram com um produto que seus primeiros usuários amaram tanto que indicaram para outras pessoas. Se você não fizer isso, vai fracassar. Se enganar a si mesmo e achar que seus usuários amam seu produto quando eles não amam, também falhará.</p>
+			<p>O cemitério das startups está cheio de pessoas que achavam que podiam pular essa etapa.</p>
+			<p>É muito melhor primeiro criar um produto que um pequeno número de usuários amem do que criar um produto que um grande número de usuários apenas gostem. Mesmo que a soma do sentimento positivo fosse a mesma, é muito mais fácil conquistar mais usuários do que fazer as pessoas passarem de “gostar” para “amar”.</p>
+			<p>Um aviso sobre a decisão de começar uma startup: é algo difícil! Um dos comentários mais frequentes que recebemos dos fundadores do YC é que é mais difícil do que eles poderiam imaginar, porque não tinham uma noção clara do tipo de trabalho e da intensidade que uma startup demanda. Entrar em uma startup em estágio inicial que já esteja em trajetória de crescimento acelerado geralmente é uma decisão financeira muito melhor.</p>
+			<p>Por outro lado, começar uma startup não é, na verdade, muito arriscado para a sua carreira — se você é realmente bom em tecnologia, existirão oportunidades de emprego caso fracasse. A maioria das pessoas é muito ruim em avaliar riscos. Pessoalmente, acho que é mais arriscado ter uma ideia ou projeto de que você é realmente apaixonado e, em vez disso, trabalhar em um emprego seguro, fácil e pouco gratificante.</p>
+			<p>Para ter uma startup de sucesso, você precisa de: uma ótima ideia (incluindo um ótimo mercado), uma ótima equipe, um ótimo produto e uma ótima execução.</p>
+			<!-- END INTRO 2 -->
+		</div>
+		<div id="ideia" class="anchor"></div>
+		<div class="mobile-wrapper">
+			<div class="bg-idea bg">
+				<div class="bg-inside">
+					<h3><span>PARTE I</span><strong>A IDEIA</strong></h3>
+					<div class="mouth"></div>
+					<div class="apple-shadow"></div>
+					<div class="apple">
+						<div class="apple-spin"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- MOBILE -->
+		<img alt="" aria-hidden="true" src="/img/idea/circle@2x.png" class="mobile-circle" />
+		<h3 class="is-mobile"><span>PARTE I</span><strong>A IDEIA</strong></h3>
+		<!-- END MOBILE -->
+		<div class="top">
+			<a href="#toc">
+				<svg class="icon-arrow-up" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 2l6 6h-4v6H6V8H2z"/></svg>
+				Índice</a>
+		</div>
+
+		<!-- 1 - IDEIA -->
+		<div class="container-content">
+			<p>Uma das primeiras coisas que perguntamos às empresas do YC é o que elas estão construindo e por quê.</p>
+			<p>Procuramos respostas claras e concisas. Isso serve tanto para avaliar você como fundador quanto para avaliar a ideia em si. É importante ser capaz de pensar e se comunicar de forma clara como fundador — você precisará disso para recrutar pessoas, captar recursos, vender etc. Em geral, ideias precisam ser claras para se espalharem, e ideias complexas quase sempre são sinal de pensamento confuso ou de um problema inventado. Se a ideia não empolgar ao menos algumas pessoas na primeira vez que a ouvirem, isso é um mau sinal.</p>
+			<p>Outra pergunta que fazemos é: quem precisa desesperadamente do produto?</p>
+			<p>No melhor dos casos, você mesmo é o usuário-alvo. Na segunda melhor hipótese, você entende muito bem o usuário-alvo.</p>
+			<p>Se uma empresa já tem usuários, perguntamos quantos são e com que velocidade esse número está crescendo. Procuramos entender por que não está crescendo mais rápido e, principalmente, verificamos se os usuários realmente amam o produto. Geralmente isso significa que eles estão recomendando o produto aos amigos sem nenhum estímulo da empresa. Também perguntamos se a empresa está gerando receita e, se não está, por que não.</p>
+			<p>Se a empresa ainda não tem usuários, tentamos entender qual é a coisa mínima que deve ser construída primeiro para testar a hipótese — ou seja, partindo da experiência perfeita e indo para trás, tentamos descobrir qual seria o “cerne” inicial.</p>
+			<p>A forma de testar uma ideia é lançá-la e ver o que acontece ou tentar vendê-la (por exemplo, tentar conseguir uma carta de intenção antes de escrever uma linha de código). A primeira abordagem funciona melhor para ideias de consumo (as pessoas podem até dizer que vão usar, mas na prática, o produto pode não se destacar entre tantos outros) e a segunda funciona melhor para ideias corporativas (se uma empresa diz que vai comprar algo, então vá construir). Especificamente, se você for uma empresa B2B, uma das primeiras perguntas que faremos é se você tem uma carta de intenção de um cliente dizendo que vai comprar o que você está construindo. Para a maioria das empresas de biotecnologia e tecnologias avançadas, a forma de testar uma ideia é primeiro conversar com clientes em potencial e depois identificar o menor conjunto da tecnologia que você pode construir inicialmente.</p>
+			<p>É importante deixar sua ideia evoluir à medida que você recebe feedback dos usuários. E é fundamental entender muito bem seus usuários — você precisa disso para avaliar a ideia, criar um ótimo produto e construir uma grande empresa.</p>
+			<p>Como mencionado antes, startups são realmente difíceis. Elas exigem muito tempo, com esforço intenso e constante. Os fundadores e funcionários precisam ter um senso de missão compartilhado para se manterem firmes. Por isso, perguntamos por que os fundadores querem começar justamente essa empresa.</p>
+			<p>Também perguntamos como a empresa se tornará um monopólio algum dia. Existem muitos termos diferentes para isso, mas usamos o do Peter Thiel. Obviamente, não queremos que sua empresa aja de forma antiética contra concorrentes. Em vez disso, buscamos negócios que fiquem mais poderosos com a escala e que sejam difíceis de copiar.</p>
+			<p>Por fim, perguntamos sobre o mercado. Perguntamos quão grande ele é hoje, com que velocidade está crescendo e por que será grande em dez anos. Tentamos entender por que o mercado crescerá rapidamente e por que é um bom mercado para uma startup entrar. Gostamos quando estão surgindo grandes mudanças tecnológicas que a maioria das pessoas ainda não percebeu — grandes empresas são ruins em lidar com essas mudanças no início. E, de forma um pouco contraintuitiva, a melhor resposta costuma ser buscar uma fatia grande de um mercado pequeno.</p>
+			<p>Algumas reflexões adicionais sobre ideias:</p>
+			<p>Nós preferimos muito mais algo novo do que algo derivativo. A maioria das empresas realmente grandes começa com algo fundamentalmente novo (uma definição aceitável de novo pode ser “10 vezes melhor”). Se houver dez outras empresas começando ao mesmo tempo com o mesmo plano, e isso soar muito parecido com algo que já existe, ficamos céticos.</p>
+			<p>Há um motivo contraintuitivo importante para isso: é mais fácil fazer algo novo e difícil do que algo derivativo e fácil. As pessoas vão querer ajudá-lo e se juntar a você se for o primeiro caso; se for o segundo, não.</p>
+			<p>As melhores ideias parecem ruins, mas na verdade são boas. Portanto, você não precisa ser muito secreto com sua ideia — se ela realmente for boa, provavelmente não vai soar tão incrível a ponto de valer a pena roubar. Mesmo que pareça valer a pena, há pelo menos mil vezes mais gente com boas ideias do que pessoas dispostas a trabalhar duro o bastante para transformar uma grande ideia em uma grande empresa. E se você contar às pessoas o que está fazendo, elas podem ajudá-lo.</p>
+			<p>Falando em contar às pessoas sua ideia — embora seja importante que a ideia empolgue realmente algumas pessoas de imediato, quase todo mundo vai dizer que sua ideia é ruim. Talvez estejam certos. Talvez não sejam bons em avaliar startups ou talvez estejam apenas com inveja. Seja qual for o motivo, isso vai acontecer com frequência, vai doer, e mesmo que você ache que não será afetado, ainda será. Quanto mais rápido você desenvolver autoconfiança e não se deixar abalar muito pelos que criticam, melhor. Não importa o quão bem-sucedido você seja, as críticas nunca desaparecem.</p>
+			<p>E se você não tiver uma ideia, mas quiser começar uma startup? Talvez você não devesse. É muito melhor se a ideia vier primeiro e a startup for apenas o meio de colocá-la no mundo.</p>
+			<p>Certa vez, tentamos um experimento: financiamos um grupo de equipes promissoras, mas que não tinham ideias, na esperança de que elas chegassem a uma ideia promissora depois de terem sido financiadas.</p>
+			<p>Todas fracassaram. Acho que parte do problema é que bons fundadores geralmente têm muitas boas ideias (até demais, na verdade). Mas um problema ainda maior é que, depois que você de fato tem uma startup, precisa se apressar para encontrar uma ideia e, por já ser uma empresa oficial, a ideia não pode ser tão louca. Você acaba com ideias plausíveis, mas derivativas. Esse é o perigo dos “pivôs”.</p>
+			<p>Então é melhor não tentar forçar muito o surgimento de ideias de startup. Em vez disso, aprenda sobre muitas coisas diferentes. Pratique observar problemas, coisas que parecem ineficientes e grandes mudanças tecnológicas. <a href="http://blog.samaltman.com/projects-and-companies">Trabalhe em projetos que você ache interessantes.</a> Vá atrás de estar cercado de pessoas inteligentes e interessantes. Em algum momento, as ideias vão surgir.</p>
+		</div>
+		<!-- FIM 1 - IDEIA -->
+
+		<div id="time" class="anchor"></div>
+		<div class="mobile-wrapper">
+			<div class="bg-team bg">
+				<div class="bg-inside">
+					<div class="bottom">
+						<div class="bottom-arm"></div>
+						<div class="bottom-arm-right"></div>
+					</div>
+					<div class="top"></div>
+					<div class="top-leg"></div>
+					<h3><span>PARTE II</span><strong class="em27">UM TIME EXCELENTE</strong></h3>
+				</div>
+			</div>
+		</div>
+		<!-- MOBILE -->
+		<img alt="" aria-hidden="true" src="/img/team/circle@2x.png" class="mobile-circle" />
+		<h3 class="is-mobile"><span>PARTE II</span><strong>UM TIME EXCELENTE</strong></h3>
+		<!-- END MOBILE -->
+		<div class="top">
+			<a href="#toc">
+				<svg class="icon-arrow-up" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 2l6 6h-4v6H6V8H2z"/></svg>
+				Índice</a>
+		</div>
+		<div class="container-content">
+			<!-- 2 - TIME EXCELENTE -->
+			<p>Times medíocres não constroem empresas excelentes. Uma das coisas que mais avaliamos é a força dos fundadores. Quando eu investia em estágios mais avançados, eu avaliava com igual rigor a força dos funcionários que os fundadores contratavam.</p>
+			<p>O que faz um grande fundador? As características mais importantes são coisas como força de vontade, determinação, formidabilidade e criatividade para resolver problemas. Inteligência e paixão também são muito importantes. Tudo isso é muito mais relevante do que experiência e certamente mais do que “dominar a linguagem X e o framework Y”.</p>
+			<p>Notamos que os fundadores mais bem-sucedidos costumam ser pessoas com quem é tranquilo trabalhar, porque sentimos que “essa pessoa vai conseguir realizar o que for preciso, aconteça o que acontecer”. Às vezes, é possível ter sucesso só na base da força de vontade.</p>
+			<p>Bons fundadores têm várias características aparentemente contraditórias. Um exemplo importante é rigidez e flexibilidade. Você quer ter convicções fortes sobre o que é essencial para a empresa e sua missão, mas ainda ser muito flexível e disposto a aprender coisas novas quando se trata de quase todo o resto.</p>
+			<p>Os melhores fundadores são excepcionalmente ágeis em responder. Isso indica poder de decisão, foco, intensidade e capacidade de fazer as coisas acontecerem.</p>
+			<p>Fundadores difíceis de se comunicar costumam ser maus fundadores. Comunicação é uma habilidade muito importante para quem está criando uma empresa — aliás, acho que é a habilidade de fundador mais importante que raramente é discutida.</p>
+			<p>Startups de tecnologia precisam de pelo menos um fundador que consiga construir o produto ou serviço da empresa e pelo menos um fundador que seja (ou possa se tornar) bom em vendas e em conversar com os usuários. Pode ser a mesma pessoa.</p>
+			<p>Leve em conta esses critérios ao escolher um cofundador — é uma das decisões mais importantes que você fará, e costuma ser tomada de forma bem aleatória. Você quer alguém que já conheça bem, não alguém que conheceu em um “evento de encontros de cofundadores”. Você consegue avaliar qualquer pessoa com quem possa trabalhar muito melhor com mais dados e, se errar nessa escolha, as consequências podem ser sérias. Além disso, em algum momento, o valor esperado da startup provavelmente vai ficar negativo. Se você já tiver um relacionamento prévio com seus cofundadores, nenhum de vocês vai querer decepcionar o outro e vocês seguirão adiante. A separação entre cofundadores é uma das principais causas de morte de startups em estágio inicial, e vemos isso acontecer com muita frequência em casos em que os fundadores se conheceram somente para criar a empresa.</p>
+			<p>O melhor cenário, de longe, é ter um bom cofundador. O segundo melhor é ser fundador solo. O pior, de longe, é ter um cofundador ruim. Se as coisas não estiverem dando certo, encerre a parceria rapidamente.</p>
+			<p>Uma nota rápida sobre participação societária: a conversa sobre a divisão de ações não fica mais fácil com o tempo — é melhor definir cedo. Dividir de forma quase igual costuma ser o melhor, embora talvez no caso de dois fundadores faça sentido uma pessoa ter uma ação a mais para evitar impasses se houver um desentendimento.</p>
+			<!-- FIM 2 - TIME EXCELENTE -->
+		</div>
+
+		<div id="produto" class="anchor"></div>
+		<div class="mobile-wrapper">
+			<div class="bg-product bg">
+				<div class="bg-inside">
+					<div class="box">
+						<div class="blocker"></div>
+						<div class="blocker2"></div>
+					</div>
+					<div class="machine"></div>
+					<h3 class="right em2">
+						<span>PARTE III</span><strong class="em2 ml-4">UM PRODUTO EXCELENTE</strong>
+					</h3>
+				</div>
+			</div>
+		</div>
+		<!-- MOBILE -->
+		<img alt="" aria-hidden="true" src="/img/product/circle@2x.png" class="mobile-circle" />
+		<h3 class="is-mobile"><span>PARTE III</span><strong>UM PRODUTO EXCELENTE</strong></h3>
+		<!-- END MOBILE -->
+		<div class="top">
+			<a href="#toc">
+				<svg class="icon-arrow-up" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 2l6 6h-4v6H6V8H2z"/></svg>
+				Índice</a>
+		</div>
+		<div class="container-content">
+			<!-- 3 - PRODUTO EXCELENTE -->
+			<p>Aqui está o segredo do sucesso: ter um ótimo produto. Esta é a única coisa que todas as grandes empresas têm em comum.</p>
+			<p>Se você não construir um produto que os usuários amem, acabará fracassando. E mesmo assim, os fundadores sempre procuram algum truque. Startups são o momento da vida em que os truques param de funcionar.</p>
+			<p>Um ótimo produto é a única maneira de crescer a longo prazo. Em algum momento, sua empresa vai ficar tão grande que todos os “growth hacks” deixarão de funcionar, e você terá que crescer porque as pessoas querem de fato usar seu produto. Essa é a coisa mais importante a entender sobre empresas super bem-sucedidas. Não há outro caminho. Pense em todas as empresas de tecnologia realmente bem-sucedidas — todas fazem isso.</p>
+			<p>Você vai querer construir um “motor de melhoria de produto” na sua empresa. Deve conversar com seus usuários e observar como eles usam seu produto, descobrir quais partes são fracas e então melhorar. Depois, repetir. Esse ciclo deve ser a principal prioridade da empresa, e deve guiar todo o resto. Se você melhorar seu produto 5% a cada semana, isso vai realmente se acumular.</p>
+			<p>Quanto mais rápido for esse ciclo de repetição, geralmente melhor será o resultado da empresa. Durante o YC, dizemos aos fundadores que eles deveriam construir produto e conversar com usuários, e não fazer muito mais além de comer, dormir, se exercitar e passar tempo com as pessoas que amam.</p>
+			<p>Para executar esse ciclo corretamente, você tem que se aproximar muito de seus usuários. Literalmente observe-os usando o produto. Sente-se no escritório deles, se possível. Valorize tanto o que dizem quanto o que realmente fazem. Você não deve colocar ninguém entre os fundadores e os usuários pelo maior tempo possível — isso significa que os fundadores precisam lidar com vendas, suporte ao cliente etc.</p>
+			<p>Entenda seus usuários o melhor que puder. Descubra o que eles precisam, onde encontrá-los e o que os motiva.</p>
+			<p>“Faça coisas que não escalam” se tornou, com razão, um mantra para startups. Geralmente é preciso recrutar os primeiros usuários um por um (Ben Silbermann costumava abordar estranhos em cafeterias em Palo Alto e pedia que experimentassem o Pinterest) e então construir recursos que eles solicitam. Muitos fundadores odeiam essa parte e só querem anunciar seu produto na imprensa. Mas isso quase nunca funciona. Recrute usuários manualmente e faça o produto tão bom que os usuários que você recrutou contem aos amigos.</p>
+			<p>É preciso também dividir as coisas em blocos bem pequenos, iterar e se adaptar conforme avança. Não tente planejar muito além nem junte tudo em um grande lançamento público. Você quer começar com algo muito simples — com a menor superfície possível — e lançar antes do que imagina. Na verdade, simplicidade é sempre boa e você deve manter tanto seu produto quanto sua empresa o mais simples possível.</p>
+			<p>Algumas perguntas que costumamos fazer a startups que estão com problemas: os usuários usam o produto mais de uma vez? Seus usuários são fanáticos pelo produto? Seus usuários ficariam realmente chateados se sua empresa desaparecesse? Seus usuários estão indicando seu produto a outras pessoas sem que você peça? Se você for uma empresa B2B, já tem pelo menos 10 clientes pagantes?</p>
+			<p>Se a resposta for “não”, então esse costuma ser o problema real, e dizemos às empresas para melhorarem seu produto. Costumo duvidar das desculpas para justificar por que uma empresa não está crescendo — quase sempre a razão real é que o produto não é bom o suficiente.</p>
+			<p>Quando as startups não sabem o que fazer em seguida com seu produto, ou se o produto não é bom o bastante, dizemos para conversarem com seus usuários. Isso não funciona em todos os casos — é verdade que, se fosse perguntar às pessoas sobre transporte, elas poderiam ter pedido “cavalos mais rápidos” em vez de carros. Mas, surpreendentemente, muitas vezes funciona. De modo geral, quando há uma discordância sobre qualquer coisa na empresa, fale com seus usuários.</p>
+			<p>Os melhores fundadores parecem se importar demais com a qualidade do produto, até em detalhes aparentemente pouco importantes. Mas isso costuma dar certo. Lembre-se de que “produto” inclui todas as interações que um usuário tem com a empresa. Você precisa oferecer excelente suporte, ótimas interações de vendas etc.</p>
+			<p>Lembre-se: se você não criar um ótimo produto, nada mais vai salvá-lo.</p>
+			<!-- FIM 2 - PRODUTO EXCELENTE -->
+		</div>
+		<div id="execucao" class="anchor"></div>
+		<div class="mobile-wrapper">
+			<div class="bg-execution bg">
+				<div class="bg-inside">
+					<div class="arm">
+						<div class="hammer"></div>
+					</div>
+					<div class="arm2"></div>
+					<div class="dot"></div>
+					<div class="dot2"></div>
+					<div class="dot3"></div>
+					<h3 class="right">
+						<span>PARTE IV</span><strong class="em25">UMA EXECUÇÃO EXCELENTE</strong>
+					</h3>
+				</div>
+			</div>
+		</div>
+		<!-- MOBILE -->
+		<img alt="" aria-hidden="true" src="/img/execution/circle@2x.png" class="mobile-circle" />
+		<h3 class="is-mobile"><span>PARTE IV</span><strong>UMA EXECUÇÃO EXCELENTE</strong></h3>
+		<!-- END MOBILE -->
+		<div class="top">
+			<a href="#toc">
+				<svg class="icon-arrow-up" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 2l6 6h-4v6H6V8H2z"/></svg>
+				Índice</a>
+		</div>
+		<div class="container-content">
+			<!-- 4 - EXECUÇÃO EXCELENTE -->
+			<p>Embora seja necessário construir um ótimo produto, você não estará acabado ao fazê-lo. Ainda precisará transformá-lo em uma grande empresa, e terá que fazer isso você mesmo — a fantasia de contratar um “gerente experiente” para fazer todo esse trabalho é muito comum e é um cemitério de empresas fracassadas. Você não pode terceirizar o trabalho para outra pessoa por muito tempo.</p>
+			<p>Isso parece óbvio, mas você precisa ganhar dinheiro. Esse é um bom momento para começar a pensar em como isso vai funcionar.</p>
+			<p>A única descrição universal do trabalho de CEO é garantir que a empresa vença. É possível fazer isso como fundador mesmo se você tiver muitos defeitos que normalmente o desqualificariam como CEO, desde que contrate pessoas que complementem suas habilidades e as deixe trabalhar. Aquele CEO experiente, com um MBA sofisticado, pode não ter as lacunas de habilidade que você tem, mas também não entenderá tão bem os usuários, não terá o mesmo instinto de produto e não se importará tanto.</p>
+			<!-- FIM 4 - EXECUÇÃO EXCELENTE -->
+		</div>
+		<div id="crescimento" class="anchor"></div>
+		<div class="mobile-wrapper">
+			<div class="bg-growth bg">
+				<div class="bg-inside">
+					<div class="tree">
+						<div class="trunk">
+							<div class="trunk-body"></div>
+							<div class="branchleft">
+								<div class="inside"></div>
+							</div>
+							<div class="branchright">
+								<div class="inside"></div>
+							</div>
+						</div>
+						<div class="pot"></div>
+					</div>
+					<h3 class="right"><span>PARTE IV: EXECUÇÃO</span><strong>CRESCIMENTO</strong></h3>
+				</div>
+			</div>
+		</div>
+		<!-- MOBILE -->
+		<img alt="" aria-hidden="true" src="/img/growth/circle@2x.png" class="mobile-circle" />
+		<h3 class="is-mobile"><span>PARTE IV: EXECUÇÃO</span><strong>CRESCIMENTO</strong></h3>
+		<!-- END MOBILE -->
+		<div class="top">
+			<a href="#toc">
+				<svg class="icon-arrow-up" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 2l6 6h-4v6H6V8H2z"/></svg>
+				Índice</a>
+		</div>
+		<div class="container-content">
+			<!-- 4.1 - CRESCIMENTO -->
+			<p>Crescimento e impulso são as chaves para uma ótima execução. Crescimento (desde que não seja “vender notas de cem por noventa”) resolve todos os problemas, e a falta de crescimento não pode ser resolvida por nada além de crescimento. Se você está crescendo, parece que está vencendo e as pessoas ficam felizes. Se você está crescendo, sempre surgem novas funções e responsabilidades, e as pessoas sentem que suas carreiras estão avançando. Se você não está crescendo, parece que você está perdendo, e as pessoas ficam insatisfeitas e vão embora. Se você não está crescendo, as pessoas apenas brigam por responsabilidades e culpam umas às outras.</p>
+			<p>Fundadores e funcionários que ficam esgotados quase sempre trabalham em startups sem impulso. Não dá para exagerar no quanto isso é desmoralizante.</p>
+			<p>A diretriz principal de uma ótima execução é “Nunca perca o impulso”. Mas como fazer isso?</p>
+			<p>A forma mais importante é tornar isso sua maior prioridade. A empresa faz aquilo que o CEO mede. Vale a pena ter uma única métrica que a empresa otimiza e vale a pena gastar tempo para descobrir qual é a métrica de crescimento certa. Se você realmente se importar com crescimento e definir o padrão de execução, o restante da empresa também se concentrará nele.</p>
+			<p>Alguns exemplos:</p>
+			<p>Os fundadores do Airbnb desenharam um gráfico de crescimento previsto do qual eles não queriam sair. Colaram esse gráfico em todos os lugares — na geladeira, acima das mesas de trabalho, no espelho do banheiro. Se eles atingissem a meta naquela semana, ótimo. Se não, era só nisso que falavam.</p>
+			<p>Mark Zuckerberg certa vez disse que uma das iniciativas mais importantes no Facebook foi criar um grupo dedicado ao crescimento quando o crescimento desacelerou. Esse grupo era (e talvez ainda seja) um dos mais prestigiados da empresa — todos sabiam o quão importante era.</p>
+			<p>Mantenha uma lista do que está bloqueando o crescimento. Conversem, como empresa, sobre como poderiam crescer mais rápido. Se você souber quais são os limitadores, naturalmente pensará em como resolvê-los.</p>
+			<p>Para tudo o que você considerar fazer, pergunte a si mesmo: “Isso é a melhor forma de otimizar o crescimento?” Por exemplo, ir a uma conferência normalmente não é a melhor forma de otimizar o crescimento, a menos que você planeje vender muito lá.</p>
+			<p>Transparência interna extrema em relação a métricas (e finanças) é algo muito útil. Por algum motivo, os fundadores têm muito medo disso. Mas é ótimo para manter toda a empresa focada em crescimento. Parece haver uma correlação direta entre o quão focados em métricas os funcionários de uma empresa são e o quão bem a empresa está indo. Se você esconder as métricas, é difícil para as pessoas focarem nelas.</p>
+			<p>Falando em métricas, não se engane com métricas de vaidade. O erro mais comum é se concentrar em cadastros e ignorar a retenção. Mas retenção é tão importante para o crescimento quanto aquisição de novos usuários.</p>
+			<p>Também é importante criar um ritmo interno para manter o impulso. Você quer ter uma “batida” de progresso — recursos novos, clientes novos, contratações, marcos de receita, parcerias etc. — sobre os quais possa falar internamente e externamente.</p>
+			<p>Você deve definir metas agressivas, porém praticamente alcançáveis, e revisar o progresso todos os meses. Comemore as vitórias! Fale internamente sobre estratégia o tempo todo, conte a todos o que está ouvindo dos clientes etc. Quanto mais informação você compartilhar internamente — boa ou ruim — melhor será.</p>
+			<p>Existem algumas armadilhas nas quais os fundadores costumam cair. Uma delas é que se a empresa está crescendo loucamente, mas tudo parece incrivelmente quebrado e ineficiente, todos ficam preocupados achando que vai dar tudo errado. Na prática, parece que isso raramente acontece (Friendster é o exemplo mais recente que me ocorre de uma startup que morreu por causa de dívida técnica). Contraintuitivamente, se você está crescendo rapidamente, mas nada está otimizado, isso é bom — basta otimizar para obter ainda mais crescimento! Meus investimentos preferidos são em empresas que estão crescendo rápido, mas são totalmente desorganizadas — elas são subvalorizadas.</p>
+			<p>Uma armadilha relacionada é pensar em problemas muito à frente — “Como vamos lidar com isso em enorme escala?” A resposta é descobrir quando você chegar lá. Muito mais startups morrem enquanto debatem essa pergunta do que por não terem pensado nela o suficiente. Uma boa regra é pensar apenas em como as coisas funcionarão em 10 vezes o seu tamanho atual. A maioria das startups em estágio inicial deveria colar “Faça coisas que não escalam” na parede e viver por esse lema. Por exemplo, grandes startups sempre oferecem um ótimo suporte ao cliente no começo, enquanto as ruins se preocupam com o impacto nos custos e se isso vai escalar. Mas ter um ótimo suporte gera usuários iniciais apaixonados e, conforme o produto melhora, você precisa de menos suporte, pois vai descobrir onde os usuários mais têm problemas e melhorar o produto/experiência nesses pontos. (Aliás, este é um exemplo realmente importante — tenha um ótimo suporte ao cliente.)</p>
+			<p>Mas há um grande porém — “Faça coisas que não escalam” não o isenta de precisar ganhar dinheiro no fim das contas. Tudo bem ter uma economia ruim por unidade no início, mas é preciso ter um bom motivo para crer que ela irá se tornar saudável mais tarde.</p>
+			<p>Outra armadilha é desanimar porque o crescimento é pequeno em termos absolutos, ainda que seja bom em termos percentuais. O ser humano é muito ruim em intuição sobre crescimento exponencial. Lembre sua equipe disso e lembre que todas as grandes empresas começaram crescendo a partir de números pequenos.</p>
+			<p>Algumas das maiores armadilhas são coisas que os fundadores acham que vão gerar crescimento, mas na prática quase nunca funcionam e consomem um tempo enorme. Exemplos comuns são acordos com outras empresas e o “grande lançamento na imprensa”. Fique atento e entenda que isso praticamente nunca funciona. Em vez disso, busque crescimento da mesma forma que todas as grandes empresas: fazendo um produto que os usuários amem, recrutando usuários manualmente no início, depois testando muitas estratégias de crescimento (anúncios, programas de indicação, vendas, marketing etc.) e fazendo mais do que funciona. Pergunte aos clientes onde você pode encontrar mais pessoas como eles.</p>
+			<p>Lembre-se de que vendas e marketing não são palavrões. Embora nenhum dos dois o salve se você não tiver um ótimo produto, eles podem acelerar bastante o crescimento. Se você for uma empresa voltada a outras empresas, provavelmente será essencial que você seja bom nisso.</p>
+			<p>Não tenha medo de vendas, especialmente. Pelo menos um fundador precisa aprender a pedir que as pessoas usem seu produto e lhe paguem por isso.</p>
+			<p>Alex Schultz <a href="http://startupclass.samaltman.com/courses/lec06/">deu uma palestra sobre crescimento para produtos de consumo</a> (na Universidade de Stanford, no curso “How to Start a Startup”) que vale muito a pena assistir. Para produtos B2B, acho que quase sempre a resposta certa é acompanhar o crescimento da receita por mês, lembrando que o ciclo de vendas mais longo faz com que os primeiros meses pareçam feios (embora às vezes vender para outras startups como clientes iniciais possa resolver esse problema).</p>
+			<!-- FIM 4.1 - CRESCIMENTO -->
+		</div>
+		<div id="foco" class="anchor"></div>
+		<div class="mobile-wrapper">
+			<div class="bg-focus bg">
+				<div class="bg-inside">
+					<div class="light"></div>
+					<h3><span>PARTE IV: EXECUÇÃO</span><strong>FOCO E INTENSIDADE</strong></h3>
+				</div>
+			</div>
+		</div>
+		<!-- MOBILE -->
+		<img alt="" aria-hidden="true" src="/img/focus/circle@2x.png" class="mobile-circle" />
+		<h3 class="is-mobile"><span>PARTE IV: EXECUÇÃO</span><strong>FOCO E INTENSIDADE</strong></h3>
+		<!-- END MOBILE -->
+		<div class="top">
+			<a href="#toc">
+				<svg class="icon-arrow-up" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 2l6 6h-4v6H6V8H2z"/></svg>
+				Índice</a>
+		</div>
+		<div class="container-content">
+			<!-- 4.2 - FOCO E INTENSIDADE -->
+			<p>Se eu tivesse que resumir meu conselho sobre como operar em apenas duas palavras, escolheria foco e intensidade. Essas palavras parecem se aplicar muito aos melhores fundadores que conheço.</p>
+			<p>Eles são implacavelmente focados no produto e no crescimento. Não tentam fazer de tudo — na verdade, dizem “não” com frequência (isso é difícil porque o tipo de pessoa que começa empresas costuma gostar de fazer coisas novas).</p>
+			<p>Como regra geral, não deixe sua empresa começar a fazer a próxima coisa antes de ter dominado a primeira. Nenhuma grande empresa que conheço começou fazendo várias coisas ao mesmo tempo — elas começam com muita convicção em uma única coisa e vão até o fim. Você pode fazer muito menos coisas do que imagina. Uma causa muito comum de morte de startups é fazer muitas coisas erradas. Priorizar é fundamental e difícil. (Tão importante quanto definir as prioridades da empresa é definir as suas prioridades táticas pessoais. O que eu encontrei que funciona melhor para mim é manter uma lista diária, escrita à mão, com cerca de 3 tarefas principais e umas 30 menores, e uma lista anual de metas gerais.)</p>
+			<p>Enquanto grandes fundadores não fazem muitos projetos enormes, tudo o que fazem, eles fazem com muita intensidade. Eles realizam as coisas muito rapidamente. São decisivos, o que é difícil quando você está dirigindo uma startup — você vai receber muitos conselhos conflitantes, tanto porque há várias maneiras de fazer as coisas quanto porque há muitos conselhos ruins por aí. Grandes fundadores ouvem todo o aconselhamento e então tomam suas próprias decisões de maneira rápida.</p>
+			<p>Observe que isso não significa fazer tudo intensamente — isso é impossível. Você precisa escolher as coisas certas. Como Paul Buchheit diz, encontre maneiras de obter 90% do valor com 10% do esforço. O mercado não se importa com o quanto você trabalhou — só se importa se você fez as coisas certas.</p>
+			<p>É muito difícil ser ao mesmo tempo obcecado pela qualidade do produto e se mover muito rápido. Mas esse é um dos indícios mais claros de um grande fundador.</p>
+			<p>Nunca vi, nenhuma vez sequer, um fundador que se movesse devagar ser realmente bem-sucedido.</p>
+			<p>Você não é diferente de outras startups. Ainda precisa manter foco e velocidade. Empresas que constroem foguetes e reatores nucleares conseguem fazer isso. Todas as empresas que fracassam têm uma desculpa para dizer que são diferentes e não precisam se mover rápido.</p>
+			<p>Quando você encontrar algo que funciona, continue. Não se distraia e não vá fazer outra coisa. Não tire o pé do acelerador.</p>
+			<p>Não se deixe levar pelo sucesso precoce — você não chegou a um começo promissor indo a muitos eventos de networking ou participando de muitos painéis. Fundadores que começam a ter sucesso inicial têm duas opções: ou continuam fazendo o que estão fazendo, ou passam a dedicar muito tempo pensando em sua “marca pessoal” e aproveitando o status de fundador.</p>
+			<p>É difícil recusar conferências e perfis na imprensa — isso traz uma boa sensação, e é especialmente difícil ver outros fundadores na sua área recebendo atenção. Mas isso não dura muito. Eventualmente, a imprensa descobre quem realmente está vencendo, e se a sua empresa for um sucesso real, você vai ter mais atenção do que desejaria. Os casos extremos — fundadores em estágio inicial com seus próprios assessores de imprensa — que a gente pensaria que só existem em séries de TV, na verdade existem no mundo real, e quase sempre fracassam.</p>
+			<p>Foco e intensidade vão prevalecer a longo prazo. (Charlie Rose certa vez disse que as coisas acontecem no mundo pela combinação de foco e conexões pessoais, e isso sempre ficou comigo.)</p>
+			<!-- FIM 4.2 - FOCO E INTENSIDADE -->
+		</div>
+
+		<div id="ceo" class="anchor"></div>
+		<div class="mobile-wrapper">
+			<div class="bg-ceo bg">
+				<div class="bg-inside">
+					<div class="juggler">
+						<div class="ball-outside b1">
+							<div class="ball"></div>
+						</div>
+						<div class="ball-outside b2">
+							<div class="ball"></div>
+						</div>
+						<div class="ball-outside b3">
+							<div class="ball"></div>
+						</div>
+						<div class="arm arm1">
+							<div class="arm-bottom"></div>
+						</div>
+						<div class="arm arm2">
+							<div class="arm-bottom"></div>
+						</div>
+					</div>
+					<h3 class="right">
+						<span>PARTE IV: EXECUÇÃO</span><strong>FUNÇÕES <em>DO</em> CEO</strong>
+					</h3>
+				</div>
+			</div>
+		</div>
+		<!-- MOBILE -->
+		<img alt="" aria-hidden="true" src="/img/ceo/circle@2x.png" class="mobile-circle" />
+		<h3 class="is-mobile"><span>PARTE IV: EXECUÇÃO</span><strong>FUNÇÕES DO CEO</strong></h3>
+		<!-- END MOBILE -->
+		<div class="top">
+			<a href="#toc">
+				<svg class="icon-arrow-up" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 2l6 6h-4v6H6V8H2z"/></svg>
+				Índice</a>
+		</div>
+		<div class="container-content">
+			<!-- 4.3 - FUNÇÕES DO CEO -->
+			<p>Antes mencionei que a única descrição universal do trabalho de um CEO é garantir que a empresa vença. Embora isso seja verdade, gostaria de falar um pouco mais especificamente sobre como um CEO deve gastar seu tempo.</p>
+			<p>Um CEO precisa 1) definir a visão e a estratégia da empresa, 2) divulgar a empresa para todos, 3) contratar e gerenciar a equipe, principalmente nas áreas em que você mesmo tenha lacunas, 4) captar recursos e 5) estabelecer o padrão de qualidade na execução.</p>
+			<p>Além disso, encontre as partes do negócio que você mais ama e se envolva nelas.</p>
+			<p>Como mencionei no início, é um trabalho intenso. Se você tiver sucesso, isso vai tomar sua vida de um jeito que você não imagina — a empresa estará sempre em sua mente. Foco extremo e intensidade extrema significam que não é a melhor escolha para quem busca equilíbrio entre vida pessoal e trabalho. Você consegue ter uma outra grande prioridade — sua família, fazer muitas maratonas, o que for — mas provavelmente não muito além disso. Você tem que estar sempre ligado, e há muitas decisões que só você pode tomar, não importa o quão bem você delegue.</p>
+			<p>Procure ser super responsivo com sua equipe e com o mundo externo, sempre esteja claro sobre a estratégia e as prioridades, compareça a tudo o que for importante e execute rapidamente (especialmente em relação a decisões que bloqueiam outras pessoas). Adote também uma atitude de “faça o que for preciso” — haverá muitos trabalhos desagradáveis. Se a equipe vê você fazendo isso, ela fará também.</p>
+			<p>Gerenciar sua própria psicologia é algo muito difícil e muito importante. Já se tornou um clichê, mas é realmente verdade — os altos e baixos emocionais são muito intensos e, se você não descobrir como se manter relativamente estável, vai ter problemas. Ser CEO é solitário. É importante ter um relacionamento com outros CEOs com quem você possa conversar quando tudo estiver desmoronando (uma das descobertas importantes do YC foi proporcionar uma forma de fundadores terem colegas na mesma situação).</p>
+			<p>Uma startup bem-sucedida leva muito tempo — certamente mais do que a maioria dos fundadores imagina no começo. Você não pode tratá-la como uma virada de madrugada. Precisa comer bem, dormir bem e se exercitar. Precisa passar tempo com família e amigos. Também precisa trabalhar em algo que realmente o apaixone — nada além disso vai sustentá-lo por dez anos.</p>
+			<p>Tudo vai parecer quebrado o tempo todo — a diversidade e a magnitude dos problemas vão surpreendê-lo. Seu trabalho é consertá-los com um sorriso no rosto e tranquilizar sua equipe de que tudo vai ficar bem. Geralmente as coisas não são tão ruins quanto parecem, mas às vezes elas são realmente ruins. Seja como for, continue em frente. Continue crescendo.</p>
+			<p>O CEO não pode dar desculpas. Muitos eventos negativos e injustos vão acontecer. Mas não deixe que você mesmo diga, e especialmente não deixe que a equipe diga, “se ao menos tivéssemos mais dinheiro” ou “se ao menos tivéssemos outro engenheiro”. Ou você encontra um jeito de fazer isso acontecer ou encontra um jeito de lidar sem isso. Pessoas que se permitem dar muitas desculpas costumam fracassar em geral, e CEOs de startups que fazem isso quase sempre fracassam. Deixe-se sentir chateado com a injustiça por 1 minuto e depois perceba que cabe a você encontrar uma solução. Procure fazer com que as pessoas falem: “Fulano de tal sempre dá um jeito de fazer as coisas acontecerem.”</p>
+			<p>Nenhum fundador de primeira viagem sabe o que está fazendo. Quanto mais você entender isso e pedir ajuda, melhor. Vale a pena investir tempo em aprender a ser um bom líder e gestor. A melhor forma de fazer isso é encontrar um mentor — ler livros parece não funcionar tão bem.</p>
+			<p>Muita coisa do que aconselhamos no YC é do tipo “simplesmente pergunte a eles” ou “simplesmente faça”. Fundadores de primeira viagem acham que deve haver algum segredo para quando você precisa de algo de alguém ou quer fazer algo novo. Mas, novamente, startups são o local onde truques deixam de funcionar. Seja direto, esteja disposto a pedir o que você quer e não seja grosseiro.</p>
+			<p>É importante distorcer a realidade para os outros, mas não para si mesmo. Você tem que convencer as outras pessoas de que sua empresa tem tudo para ser a startup mais importante da década, mas você mesmo deve estar paranoico quanto a tudo o que pode dar errado.</p>
+			<p>Seja persistente. A maioria dos fundadores desiste rápido demais ou pula para o próximo produto rápido demais. Se as coisas não estiverem indo bem, descubra a causa raiz do problema e tente resolver. Uma grande parte de ser um CEO de startup bem-sucedido é não desistir (embora você também não deva ser obstinado além de toda razão — essa é mais uma contradição aparente, e um julgamento difícil de fazer).</p>
+			<p>Seja otimista. Embora seja possível que exista um grande CEO pessimista em algum lugar do mundo, ainda não o conheci. A crença de que o futuro será melhor e de que a empresa terá um papel importante em tornar o futuro melhor é fundamental para o CEO, para que ele possa contagiar o restante da equipe. Isso é simples na teoria e difícil na realidade dos desafios de curto prazo. Não perca de vista a visão de longo prazo e confie que os problemas do dia a dia serão esquecidos um dia, substituídos pelas lembranças do progresso ano a ano.</p>
+			<p>Entre suas tarefas mais importantes estão definir a missão e definir os valores. Isso pode parecer meio bobo, mas vale a pena fazer desde cedo. O que você definir no começo geralmente continua valendo anos depois, e conforme você cresce, cada pessoa nova precisa primeiro comprar a missão e os valores da empresa e depois transmiti-los a outros. Então, escreva seus valores culturais e a missão desde o início.</p>
+			<p>Outro clichê que acho importante repetir: construir uma empresa é um pouco como construir uma religião. Se as pessoas não enxergam o que fazem no dia a dia como parte de um propósito maior que elas valorizam, elas não farão um ótimo trabalho. Acho que o Airbnb é quem faz isso melhor na rede do YC e recomendo muito que observem os valores culturais deles.</p>
+			<p>Um erro que CEOs frequentemente cometem é tentar inovar em áreas consolidadas de negócios em vez de inovar em novos produtos e soluções. Por exemplo, muitos fundadores acham que devem gastar tempo encontrando novas formas de fazer RH, marketing, vendas, finanças, relações públicas etc. Isso quase sempre é ruim. Faça o que já funciona nas áreas consolidadas e concentre sua criatividade no produto ou serviço que você está construindo.</p>
+			<!-- FIM 4.3 - FUNÇÕES DO CEO -->
+		</div>
+
+		<div id="contratacao" class="anchor"></div>
+		<div class="mobile-wrapper">
+			<div class="bg-hiring bg">
+				<div class="bg-inside">
+					<div class="arm">
+						<div class="megaphone"></div>
+						<div class="text"></div>
+					</div>
+					<h3 class="right">
+						<span>PARTE IV: EXECUÇÃO</span><strong class="em2">CONTRATAÇÃO E GERENCIAMENTO</strong>
+					</h3>
+				</div>
+			</div>
+		</div>
+		<!-- MOBILE -->
+		<img alt="" aria-hidden="true" src="/img/hiring/circle@2x.png" class="mobile-circle" />
+		<h3 class="is-mobile">
+			<span>PARTE IV: EXECUÇÃO</span><strong>CONTRATAÇÃO E GERENCIAMENTO</strong>
+		</h3>
+		<!-- END MOBILE -->
+		<div class="top">
+			<a href="#toc">
+				<svg class="icon-arrow-up" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 2l6 6h-4v6H6V8H2z"/></svg>
+				Índice</a>
+		</div>
+		<div class="container-content">
+			<!-- 4.4 - CONTRATAÇÃO E GERENCIAMENTO -->
+			<p>Contratar é uma das suas tarefas mais importantes e a chave para construir uma grande empresa (em vez de apenas um grande produto).</p>
+			<p>Meu primeiro conselho sobre contratação é: não contrate. As empresas mais bem-sucedidas que já vimos no YC esperaram um tempo relativamente longo para começar a contratar funcionários. Funcionários são caros. Funcionários adicionam complexidade organizacional e ruído na comunicação. Há coisas que você pode dizer a seus cofundadores que não pode dizer com funcionários presentes. Funcionários também adicionam inércia — fica exponencialmente mais difícil mudar de direção com mais gente na equipe. Resista à tentação de medir seu valor pelo número de funcionários que você tem.</p>
+			<p>As melhores pessoas têm muitas oportunidades. Elas querem entrar em empresas que sejam foguetes. Se você não tem nada ainda, é difícil contratá-las. Quando você estiver claramente vencendo, elas virão até você.</p>
+			<p>Vale repetir que pessoas excelentes têm muitas opções, e você precisa de pessoas excelentes para construir uma empresa excelente. Seja generoso com participação, confiança e responsabilidade. Esteja disposto a ir atrás de gente que você acha que não vai conseguir trazer. Lembre-se de que as pessoas que você quer contratar podem criar suas próprias empresas, se quiserem.</p>
+			<p>Quando você entrar em modo de recrutamento (ou seja, do momento em que você consegue ajuste produto-mercado até o infinito), deve dedicar cerca de 25% do seu tempo a isso. Pelo menos um fundador, geralmente o CEO, precisa se tornar ótimo em recrutamento. É a atividade número um em termos de tempo para a maioria dos CEOs. Todo mundo diz que CEOs devem passar muito tempo recrutando, mas na prática apenas os melhores fazem isso. Provavelmente há algo a se notar aí.</p>
+			<p>Não faça concessões na qualidade das pessoas que contrata. Todo mundo sabe disso, mas mesmo assim todo mundo cede em algum momento de necessidade urgente. Todos se arrependem depois, e às vezes isso quase mata a empresa. Pessoas boas e ruins são contagiosas, e se você começa com funcionários medianos, a média costuma não subir. Empresas que começam com funcionários medianos quase nunca se recuperam. Confie em seu instinto sobre as pessoas. Se você tiver dúvida, a resposta é não.</p>
+			<p>Não contrate pessoas cronicamente negativas. Elas não se encaixam no que uma startup em estágio inicial precisa — o mundo inteiro estará prevendo sua ruína todos os dias, e a empresa precisa estar internamente unida em sua crença de que isso não vai acontecer.</p>
+			<p>Valorize aptidão em vez de experiência para quase todas as funções. Busque inteligência pura e um histórico de realizar coisas. Procure pessoas de quem você goste — vocês passarão muito tempo juntos, muitas vezes em situações tensas. Para quem você não conhece, tente trabalhar em um projeto juntos antes de ela entrar em tempo integral.</p>
+			<p>Invista em se tornar um bom gestor. Isso é difícil para a maioria dos fundadores e é certamente algo não intuitivo. Mas é importante se tornar bom nisso. Encontre mentores que possam ajudar. Se você não ficar bom nisso, perderá funcionários rapidamente, e se não retiver pessoas, pode ser o melhor recrutador do mundo que não vai adiantar. A maioria dos princípios de ser um bom gestor já foi muito discutida, mas o que raramente vejo mencionado é “não entre no modo herói”. A maioria dos gestores de primeira viagem cai nessa armadilha em algum momento, tenta fazer tudo sozinho e acaba inacessível para a equipe. Isso normalmente termina em colapso. Resista a toda tentação de agir assim e aceite a possibilidade de atrasar projetos para ter uma equipe saudável.</p>
+			<p>Falando em gestão, tente muito que todos fiquem no mesmo escritório. Por algum motivo, startups sempre abrem exceções nisso. Mas quase todas as startups mais bem-sucedidas começaram com a equipe toda junta. Acredito que trabalho remoto pode funcionar bem para empresas maiores, mas não costuma ser receita de sucesso imenso em startups.</p>
+			<p>Por fim, demita rápido. Todos sabem disso em teoria, mas quase ninguém faz de fato. Mesmo assim, é importante mencionar. Além disso, demita pessoas que sejam tóxicas à cultura, não importa quão boas elas sejam no que fazem. Cultura se define por quem você contrata, demite e promove.</p>
+			<p><a href="http://blog.samaltman.com/how-to-hire">Escrevi um post no meu blog com mais detalhes sobre contratação.</a></p>
+			<!-- FIM 4.4 - CONTRATAÇÃO E GERENCIAMENTO -->
+		</div>
+		<div id="concorrentes" class="anchor"></div>
+		<div class="mobile-wrapper">
+			<div class="bg-competition bg">
+				<div class="bg-inside">
+					<div class="waves"></div>
+					<div class="fin"></div>
+					<h3 class="right"><span>PARTE IV: EXECUÇÃO</span><strong>CONCORRENTES</strong></h3>
+				</div>
+			</div>
+		</div>
+		<!-- MOBILE -->
+		<img alt="" aria-hidden="true" src="/img/competition/circle@2x.png" class="mobile-circle" />
+		<h3 class="is-mobile">
+			<span>PARTE IV: EXECUÇÃO</span><strong>CONCORRENTES</strong>
+		</h3>
+		<!-- END MOBILE -->
+		<div class="top">
+			<a href="#toc">
+				<svg class="icon-arrow-up" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 2l6 6h-4v6H6V8H2z"/></svg>
+				Índice</a>
+		</div>
+		<div class="container-content">
+			<!-- 4.5 - CONCORRENTES -->
+			<p>Uma rápida palavra sobre concorrentes: concorrentes são uma história de terror nas startups. Fundadores de primeira viagem acham que são eles que destroem 99% das startups. Mas 99% das startups morrem por suicídio, não assassinato. Preocupe-se mais com todos os seus problemas internos. Se você fracassar, muito provavelmente será porque você não conseguiu criar um ótimo produto e/ou não conseguiu construir uma ótima empresa.</p>
+			<p>Em 99% dos casos, ignore seus concorrentes. Especialmente quando eles levantam muito dinheiro ou aparecem muito na imprensa. Não se preocupe com um concorrente a menos que ele esteja superando você com um produto real, já lançado. Escrever comunicados de imprensa é mais fácil do que programar, que por sua vez é mais fácil do que fazer um ótimo produto. Nas palavras de Henry Ford: “O concorrente que deve ser temido é aquele que nunca se preocupa com você, mas segue tornando o próprio negócio melhor o tempo todo.”</p>
+			<p>Toda empresa gigante já enfrentou ameaças competitivas piores do que a que você está enfrentando agora quando eram pequenas e todas elas se saíram bem. Sempre há um contragolpe possível.</p>
+			<!-- FIM 4.5 - CONCORRENTES -->
+		</div>
+		<div id="receita" class="anchor"></div>
+		<div class="mobile-wrapper">
+			<div class="bg-money bg">
+				<div class="bg-inside">
+					<div class="money-outside">
+						<div class="money"></div>
+					</div>
+					<h3><span>PARTE IV: EXECUÇÃO</span><strong>GERANDO RECEITA</strong></h3>
+				</div>
+			</div>
+		</div>
+		<!-- MOBILE -->
+		<img alt="" aria-hidden="true" src="/img/money/circle@2x.png" class="mobile-circle" />
+		<h3 class="is-mobile">
+			<span>PARTE IV: EXECUÇÃO</span><strong>GERANDO RECEITA</strong>
+		</h3>
+		<!-- END MOBILE -->
+		<div class="top">
+			<a href="#toc">
+				<svg class="icon-arrow-up" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 2l6 6h-4v6H6V8H2z"/></svg>
+				Índice</a>
+		</div>
+		<div class="container-content">
+			<!-- 4.6 - GERANDO RECEITA -->
+			<p>Ah, sim, ganhar dinheiro. Você precisa descobrir como fazer isso.</p>
+			<p>A versão curta é que você tem que fazer as pessoas pagarem a você mais do que custa fornecer seu produto/serviço. Por algum motivo, as pessoas sempre se esquecem de levar em conta a parte sobre quanto custa entregar isso.</p>
+			<p>Se você tem um produto gratuito, não planeje crescer comprando usuários. É muito difícil para empresas que dependem de publicidade. Você precisa criar algo que as pessoas compartilhem com os amigos.</p>
+			<p>Se você tem um produto pago com valor de vida útil (LTV) do cliente menor que US$ 500, geralmente não dá para bancar equipe de vendas. Experimente diferentes métodos de aquisição de usuários, como SEO/SEM, anúncios, envios de e-mail etc., mas tente recuperar seu custo de aquisição (CAC) em até 3 meses.</p>
+			<p>Se você tem um produto pago com LTV maior que US$ 500 (valor líquido para você), normalmente dá para bancar vendas diretas. Tente vender o produto você mesmo primeiro, para aprender o que funciona. O livro “Hacking Sales” pode ser útil.</p>
+			<p>Em todo caso, tente chegar à “rentabilidade do lámen” — ou seja, ganhar dinheiro suficiente para os fundadores viverem de lámen — o mais rápido que puder. Quando você chega lá, passa a controlar seu próprio destino e deixa de ficar à mercê de investidores e dos mercados financeiros.</p>
+			<p>Monitore obsessivamente seu fluxo de caixa. Embora pareça inacreditável, já vimos fundadores ficarem sem dinheiro sem perceber que estava acontecendo diversas vezes (e <a href="http://paulgraham.com/aord.html">leia o texto do Paul Graham sobre isso</a>).</p>
+			<!-- FIM 4.6 - GERANDO RECEITA -->
+		</div>
+		<div id="capital" class="anchor"></div>
+		<div class="mobile-wrapper">
+			<div class="bg-fundraising bg">
+				<div class="bg-inside">
+					<div class="graph">
+						<div class="arrow"></div>
+					</div>
+					<h3><span>PARTE IV: EXECUÇÃO</span><strong class="em2">CAPTAÇÃO DE RECURSOS</strong></h3>
+				</div>
+			</div>
+		</div>
+		<!-- MOBILE -->
+		<img alt="" aria-hidden="true" src="/img/fundraising/circle@2x.png" class="mobile-circle" />
+		<h3 class="is-mobile">
+			<span>PARTE IV: EXECUÇÃO</span><strong>CAPTAÇÃO DE RECURSOS</strong>
+		</h3>
+		<!-- END MOBILE -->
+		<div class="top">
+			<a href="#toc">
+				<svg class="icon-arrow-up" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 2l6 6h-4v6H6V8H2z"/></svg>
+				Índice</a>
+		</div>
+		<div class="container-content">
+			<!-- 4.7 - CAPTAÇÃO DE RECURSOS  -->
+			<p>A maioria das startups capta dinheiro em algum momento.</p>
+			<p>Você deve captar quando precisar ou quando estiver disponível em boas condições. Tome cuidado para não perder a noção de frugalidade nem resolver problemas atirando dinheiro neles. Não ter dinheiro suficiente pode ser ruim, mas ter dinheiro demais quase sempre é ruim.</p>
+			<p>O segredo para captar recursos com sucesso é ter uma boa empresa. Todo o resto que fundadores fazem para tentar superotimizar o processo provavelmente só importa uns 5% das vezes. Investidores procuram empresas que serão realmente bem-sucedidas com ou sem o investimento deles, mas que podem crescer mais rápido com capital externo. A parte do “realmente bem-sucedidas” é importante — porque os retornos dos investidores são dominados pelos grandes sucessos. Se um investidor acredita que você tem 100% de chance de criar uma empresa de 10 milhões de dólares, mas quase nenhuma chance de se tornar algo muito maior, ele ou ela provavelmente não vai investir, mesmo que o valuation seja bem baixo. Sempre explique por que você pode vir a ser um sucesso enorme.</p>
+			<p>Os investidores são guiados pelo medo duplo de perder o próximo Google e pelo medo de perder dinheiro em algo que, depois, pareça obviamente tolo. (Para as melhores empresas, eles temem ambas as coisas ao mesmo tempo.)</p>
+			<p>É uma má ideia tentar captar dinheiro quando sua empresa não está boa o suficiente para atrair capital. Você vai queimar reputação e desperdiçar tempo.</p>
+			<p>Não fique desanimado se tiver dificuldades para captar. Muitas das melhores empresas já enfrentaram esse problema, porque as melhores empresas costumam parecer ruins no começo (e normalmente não são vistas como “na moda”). Quando investidores dizem “não”, acredite no “não”, mas não no motivo. E lembre-se de que qualquer coisa que não seja “sim” é “não” — investidores têm uma habilidade impressionante de dizer “não” de um modo que soa como “talvez sim”.</p>
+			<p>É muito importante conversar com todos os investidores em paralelo — não vá descendo sua lista de investidores preferidos de forma sequencial. A maneira de fazer os investidores agirem é o medo de perderem a oportunidade para outros.</p>
+			<p>Encare a captação como um mal necessário e algo a ser resolvido o mais rápido possível. Alguns fundadores se apaixonam por captar recursos; isso é sempre ruim. É melhor deixar apenas um fundador fazendo isso para a empresa não parar.</p>
+			<p>Lembre-se de que a maioria dos VCs não entende muito de quase todos os setores. Métricas são quase sempre o que mais convence.</p>
+			<p>Isso está começando a mudar, mas a maior parte dos investidores (com o Y Combinator sendo uma exceção notável) infelizmente ainda exige apresentações por pessoas que vocês conheçam para levá-los a sério.</p>
+			<p>Exija termos limpos (termos complicados se acumulam e pioram a cada rodada), mas não exagere na otimização, especialmente em valuation. Valuation é algo quantificável para competir, e então os fundadores adoram disputar quem consegue o valuation mais alto. Mas valuations intermediárias não importam tanto.</p>
+			<p>O primeiro cheque é o mais difícil de conseguir, então concentre-se em obtê-lo, o que normalmente significa focar sua atenção em quem mais gosta de você. Sempre tenha vários planos, um deles sendo não captar nada, e seja flexível de acordo com o interesse — se você puder usar mais dinheiro e estiver disponível em termos razoáveis, esteja aberto a aceitá-lo.</p>
+			<p>Uma das chaves para ser bom em apresentar seu pitch é tornar sua história o mais clara e simples possível. Claro, a chave mais importante é ter realmente uma boa empresa. Existem muitas ideias sobre o que incluir no pitch, mas no mínimo você precisa ter: missão, problema, produto/serviço, modelo de negócio, equipe, mercado e taxa de crescimento do mercado, e finanças.</p>
+			<p>Lembre-se de que a cada rodada de financiamento a régua fica mais alta. Se você conseguiu se virar só com uma apresentação atraente na rodada seed, não se surpreenda quando isso não funcionar na Série A.</p>
+			<p>Bons investidores de fato agregam muito valor. Maus investidores atrapalham muito. A maioria dos investidores fica no meio e não agrega nem atrapalha. Investidores que investem um valor pequeno geralmente não trazem benefício algum (ou seja, cuidado com “party rounds”).</p>
+			<p>Grandes membros de conselho são um dos melhores fatores externos de estímulo para a empresa, além dos usuários, e estímulos externos valem mais do que a maioria dos fundadores supõe. Esteja disposto a aceitar um valuation mais baixo para ter um ótimo conselheiro que esteja disposto a se envolver bastante.</p>
+			<p>Acho que <a href="http://paulgraham.com/fr.html">este texto do Paul Graham</a> sobre captação é o melhor que existe a respeito.</p>
+			<!-- FIM 4.7 - CAPTAÇÃO DE RECURSOS  -->
+		</div>
+		<div id="fim" class="anchor"></div>
+		<div class="mobile-wrapper">
+			<div class="bg-closing bg">
+				<div class="sky">
+					<div class="sky1"></div>
+					<div class="sky2">
+						<div class="stars"></div>
+					</div>
+				</div>
+				<div class="bg-inside">
+					<div class="sun"></div>
+					<h3 class="right"><strong>PENSAMENTOS FINAIS</strong></h3>
+				</div>
+				<div class="water"></div>
+			</div>
+		</div>
+		<!-- MOBILE -->
+		<img alt="" aria-hidden="true" src="/img/closing/circle@2x.png" class="mobile-circle" />
+		<h3 class="is-mobile">
+			<strong>PENSAMENTOS FINAIS</strong>
+		</h3>
+		<!-- END MOBILE -->
+		<div class="top">
+			<a href="#toc">
+				<svg class="icon-arrow-up" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 2l6 6h-4v6H6V8H2z"/></svg>
+				Índice</a>
+		</div>
+		<div class="container-content">
+			<!-- 5 - FIM -->
+			<p>Lembre-se de que pelo menos mil pessoas têm cada grande ideia. Uma delas efetivamente se torna bem-sucedida. A diferença vem da execução. É um trabalho árduo, e todo mundo gostaria que houvesse outra forma de transformar “ideia” em “sucesso”, mas ninguém descobriu outra ainda.</p>
+			<p>Então tudo de que você precisa é uma ótima ideia, um ótimo time, um ótimo produto e uma ótima execução. Tão fácil! ;)</p>
+			<blockquote>
+				<p>Obrigado a Paul Buchheit, Erica Carpenter, Brian Chesky, Adam D’Angelo, Drew Houston, Justin Kan, Matt Krisiloff, Aaron Levie, Gabriel Leydon, Jessica Livingston, Dustin Moskovitz, David Rusenko e Colleen Taylor por contribuir com ideias para este texto.</p>
+			</blockquote>
+			<!-- 5 - FIM -->
+		</div>
+		<br />
+		<br />
+		<br />
+		<br />
+		<div class="text-center">
+			<a
+				href="https://twitter.com/intent/tweet?source=webclient&amp;text=Startup+Playbook+by+Sam+Altman+(@sama)+traduzido+para+o+Português+por+@junowoz+https://playbook.junowoz.com"
+				class="social-link social-twitter"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<div class="sm-icon"></div>
+				<span><i>Compartilhar no </i> <strong>Twitter</strong></span></a>
+		</div>
+		<br />
+		<br />
+		<br />
+		<a href="#toc" class="bottom-toc text-center">
+			<svg class="icon-arrow-up" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 2l6 6h-4v6H6V8H2z"/></svg>
+			Voltar ao <strong> Índice</strong></a>
+	</main>
+	<footer>
+		<p>
+			Startup Playbook, escrito por Sam Altman e ilustrado por Gregory Koberger. Tradução para o português por
+			<a href="https://junowoz.com" target="_blank" rel="noopener noreferrer">Juan José Gouvêa</a>.
+			Esta é uma tradução independente da comunidade, sem vínculo com os autores originais.
+		</p>
+		<p>
+			<a href="https://playbook.samaltman.com/" target="_blank" rel="noopener noreferrer">Original em inglês</a>
+			&middot;
+			<a href="https://platzi.com/startup-playbook/" target="_blank" rel="noopener noreferrer">Tradução para o espanhol</a>
+			&middot;
+			<a href="https://github.com/junowoz/startup-playbook-br" target="_blank" rel="noopener noreferrer">Código-fonte no GitHub</a>
+		</p>
+	</footer>
+	<script src="/js/playbook.js" defer></script>
+</body>
+</html>

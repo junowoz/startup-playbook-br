@@ -1,20 +1,75 @@
-# Playbook
-Tradução do [Startup PlayBook](http://playbook.samaltman.com) do Sam Altman da YCombinator para o Portugues
+# Startup Playbook (tradução em português)
 
-O Playbook do Sam Altman é uma excelente introdução para criar novas startups, e aconselhamos a todo mundo, 
-inclusive investidores, mentores e founders experientes a dar uma lida, já que parte do que o pessoal da YCombinator
-pode acabar sendo um pouco contra-intuitivo, porem eles tem um track record que acredito não pode ser fruto
-de sorte ou de marketing, eles devem ter uma estrategia e uma abordagem para lidar com super early stage startups
-que o resto dos mortais ignora ainda.
+Tradução para o português do Brasil do [Startup Playbook](https://playbook.samaltman.com/) de Sam Altman. A tradução tem 7.823 palavras e cobre os 14 capítulos do texto original.
 
-Gostamos tanto dele que decidimos traduzir para o portugues assim como o pessoal da [Platzi](http://platzi.com/startup-playbook/) fez uma tradução para o espanhol.
+## Sobre o projeto
 
-## Trabalho em progresso
+O site é uma página única, estática, sem framework de front-end, sem processo de build e sem dependências. O texto é de Sam Altman e as ilustrações são de Gregory Koberger. A tradução para o português é de Juan José Gouvêa.
 
-Ainda não esta 100% traduzido.
+Este projeto é independente e não tem vínculo oficial com Sam Altman, a Y Combinator ou os detentores dos direitos do texto original. Os créditos completos estão em [CREDITS.md](CREDITS.md).
 
-Se quiser nos ajudar faz um fork e posta um issue falando qual parte, paragrafo, etc. você esta traduzindo para que outras pessoas saibam 
-o que cada um esta traduzindo e não tenhamos duplicação de trabalho.
+## Links
 
-Depois de traduzir a tua parte, faz um pull request para que possamos integrar aqui e publicar no site.
-# startup-playbook-br
+- Original em inglês: https://playbook.samaltman.com/
+- Tradução em espanhol (Platzi): https://platzi.com/startup-playbook/
+
+## Rodando localmente
+
+O site é HTML, CSS e JavaScript estáticos. Não há build, não há dependências para instalar e não há variáveis de ambiente.
+
+```
+python3 -m http.server 8000 --directory public
+```
+
+Abra `http://localhost:8000` no navegador.
+
+## Estrutura de arquivos
+
+```
+public/              arquivos publicados
+  index.html         página principal
+  404.html           página de erro
+  favicon.ico
+  css/playbook.css
+  js/playbook.js
+  fonts/*.woff2
+  img/**
+  robots.txt
+  sitemap.xml
+  llms.txt
+  _headers           cabeçalhos de segurança e cache
+wrangler.jsonc       configuração do Cloudflare Workers
+README.md
+CREDITS.md
+```
+
+## Deploy no Cloudflare Workers
+
+O projeto publica os arquivos estáticos da pasta `public/`. Não há build, não há variáveis de ambiente e não há código de servidor.
+
+A configuração fica em `wrangler.jsonc`:
+
+```jsonc
+{
+  "name": "startup-playbook-br",
+  "compatibility_date": "2026-09-18",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}
+```
+
+### Pelo painel do Cloudflare
+
+Em Workers & Pages, use **Continue with GitHub** e conecte o repositório. Deixe o build command em branco. O Cloudflare lê o `wrangler.jsonc` e publica o conteúdo de `public/`.
+
+### Pela linha de comando
+
+```
+npx wrangler deploy
+```
+
+O arquivo `public/_headers` define os cabeçalhos de segurança (CSP, HSTS, X-Frame-Options e outros) e as regras de cache. O Workers lê esse arquivo automaticamente, do mesmo jeito que o Pages lia.
+
+Para novos projetos o Cloudflare recomenda Workers em vez do Pages: o Pages continua funcionando, mas as novas funcionalidades vão para o Workers. Requisições a arquivos estáticos não são cobradas.

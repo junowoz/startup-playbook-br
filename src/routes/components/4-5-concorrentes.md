@@ -1,5 +1,0 @@
-Uma rápida palavra sobre concorrentes: concorrentes são uma história de terror nas startups. Fundadores de primeira viagem acham que são eles que destroem 99% das startups. Mas 99% das startups morrem por suicídio, não assassinato. Preocupe-se mais com todos os seus problemas internos. Se você fracassar, muito provavelmente será porque você não conseguiu criar um ótimo produto e/ou não conseguiu construir uma ótima empresa.
-
-Em 99% dos casos, ignore seus concorrentes. Especialmente quando eles levantam muito dinheiro ou aparecem muito na imprensa. Não se preocupe com um concorrente a menos que ele esteja superando você com um produto real, já lançado. Escrever comunicados de imprensa é mais fácil do que programar, que por sua vez é mais fácil do que fazer um ótimo produto. Nas palavras de Henry Ford: “O concorrente que deve ser temido é aquele que nunca se preocupa com você, mas segue tornando o próprio negócio melhor o tempo todo.”
-
-Toda empresa gigante já enfrentou ameaças competitivas piores do que a que você está enfrentando agora quando eram pequenas e todas elas se saíram bem. Sempre há um contragolpe possível.
