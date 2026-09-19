@@ -2232,8 +2232,11 @@
   transform: rotate(0deg);
 }
 .bg.bg-hiring h3 strong {
-  font-size: 50px;
-  /* CONTRATAÇÃO tem Ç e Ã, que desenham mais alto que o inglês original. */
+  /* 50px era o tamanho do título em inglês ("HIRING & MANAGING", curto).
+     "CONTRATAÇÃO E GERENCIAMENTO" nesse tamanho ocupa 489px, mas só há
+     369px livres antes das crianças desenhadas no fundo — o texto subia
+     por cima da ilustração. 36px cabe no espaço limpo. */
+  font-size: 36px;
   line-height: 1.2em;
 }
 @media (max-width: 760px) {
@@ -3029,7 +3032,10 @@
   padding-top: 55px;
 }
 .bg.bg-product h3 strong {
-  font-size: 60px;
+  /* Mesmo caso: 60px servia para "A GREAT PRODUCT". "UM PRODUTO
+     EXCELENTE" nesse tamanho invadia o cientista desenhado no fundo. */
+  font-size: 36px;
+  line-height: 1.2em;
 }
 .bg.bg-product .machine {
   width: 470px;
