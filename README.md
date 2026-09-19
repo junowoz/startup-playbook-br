@@ -43,6 +43,25 @@ README.md
 CREDITS.md
 ```
 
+## Analytics
+
+O site usa Rybbit, hospedado em `analytics.junowoz.com`. Não usa Google Analytics e não cria cookies, então não precisa de aviso de cookies.
+
+O script fica no fim do `public/index.html`:
+
+```html
+<script src="https://analytics.junowoz.com/api/script.js"
+	data-site-id="SITE_ID"
+	data-track-query="false"
+	defer></script>
+```
+
+Troque `SITE_ID` pelo id que o painel do Rybbit mostra ao cadastrar o site. O id do site é público e fica direto no HTML: como não há build, não existe etapa que substitua variável de ambiente por valor. Não coloque a API key do Rybbit aqui; ela é secreta e só vale para uso no servidor.
+
+`data-track-query="false"` mantém os parâmetros de query fora da coleta.
+
+O `public/_headers` libera `analytics.junowoz.com` em `script-src` e `connect-src`. Nenhuma outra origem externa é permitida. Se o endereço do Rybbit mudar, os dois lugares precisam ser atualizados: o script e a CSP.
+
 ## Deploy no Cloudflare Workers
 
 O projeto publica os arquivos estáticos da pasta `public/`. Não há build, não há variáveis de ambiente e não há código de servidor.
