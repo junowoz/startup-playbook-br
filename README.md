@@ -45,21 +45,9 @@ CREDITS.md
 
 ## Analytics
 
-O site usa Rybbit, hospedado em `analytics.junowoz.com`. Não usa Google Analytics e não cria cookies, então não precisa de aviso de cookies.
+O site usa Cloudflare Web Analytics, ativado na zona `junowoz.com` com injeção automática: o Cloudflare insere o beacon no HTML entregue. Não há script no `public/index.html`, não cria cookies e não precisa de aviso de cookies. Não adicione o snippet manual, porque duplicaria as visitas.
 
-O script fica no fim do `public/index.html`:
-
-```html
-<script
-	src="https://analytics.junowoz.com/api/script.js"
-	data-site-id="9"
-	defer
-></script>
-```
-
-O id do site (`9`) é público e fica direto no HTML: como não há build, não existe etapa que substitua variável de ambiente por valor. Não coloque a API key do Rybbit aqui; ela é secreta e só vale para uso no servidor.
-
-O `public/_headers` libera `analytics.junowoz.com` em `script-src` e `connect-src`. Nenhuma outra origem externa é permitida. Se o endereço do Rybbit mudar, os dois lugares precisam ser atualizados: o script e a CSP.
+O `public/_headers` libera `https://static.cloudflareinsights.com` em `script-src`; o beacon envia os dados para `/cdn-cgi/rum` na própria origem, coberto por `connect-src 'self'`. Nenhuma outra origem externa é permitida.
 
 ## Deploy no Cloudflare Workers
 
